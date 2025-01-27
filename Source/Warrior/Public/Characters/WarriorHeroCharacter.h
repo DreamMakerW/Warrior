@@ -11,6 +11,7 @@
 // class UCameraComponent;
 class UInputComponent;
 struct FInputActionValue;
+class UHeroCombatComponent;
 
 /**
  * 
@@ -41,6 +42,9 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Camera", meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Combat", meta = (AllowPrivateAccess = "true"))
+	UHeroCombatComponent* HeroCombatComponent;
+
 #pragma endregion
 
 #pragma region Inputs
@@ -54,5 +58,6 @@ private:
 
 #pragma endregion
 
-
+public:
+	FORCEINLINE UHeroCombatComponent* GetHeroCombatComponent() const { return HeroCombatComponent; }
 };
