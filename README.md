@@ -12,5 +12,7 @@
 >> 全流程：Native Gameplay Tags -> Input Config Data Asset -> Custom Input Component -> Binding Inputs -> Assign Assets in Editor
 >
 > Native Gameplay Tags: 声明及定义GameplayTag
+> 
 > Input Cofig Data Asset: 创建了一个新的数组存储AbilityInputAction
+> 
 > Custome Input Component: 为绑定action创建了模板函数
