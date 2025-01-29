@@ -37,3 +37,8 @@ UPawnCombatComponent* UWarriorGameplayAbility::GetPawnCombatComponentFromActorIn
 	// GetComponentByClass()会遍历actor所有的组件，返回第一个找到的结果
 	return GetAvatarActorFromActorInfo()->FindComponentByClass<UPawnCombatComponent>(); 
 }
+
+UWarriorAbilitySystemComponent* UWarriorGameplayAbility::GetWarriorAbilitySystemComponentFromActorInfo() const
+{
+	return Cast<UWarriorAbilitySystemComponent>(CurrentActorInfo->AbilitySystemComponent);
+}
