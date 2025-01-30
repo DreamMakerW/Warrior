@@ -16,3 +16,6 @@
 > Input Cofig Data Asset: 创建了一个新的数组存储AbilityInputAction
 > 
 > Custome Input Component: 为绑定action创建了模板函数
+
+### 3-7 Hero Ability Set
+> Hero Character需要把标签传给Ablity System Component，通过标签激活对应的Ability，因此在UDataAsset_HeroStartUpData类里创建了一个结构体，维护标签与ability的关系，并重写了将能力赋予ASC的方法，这样在WarriorHeroCharacter的PossessedBy函数中就会调用子类的GiveToAbilitySystemComponent方法。
