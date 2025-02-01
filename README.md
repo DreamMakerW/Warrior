@@ -21,4 +21,4 @@
 > Hero Character需要把标签传给Ablity System Component，通过标签激活对应的Ability，因此在UDataAsset_HeroStartUpData类里创建了一个结构体，维护标签与ability的关系，并重写了将能力赋予ASC的方法，这样在WarriorHeroCharacter的PossessedBy函数中就会调用子类的GiveToAbilitySystemComponent方法。
 
 ### 3-8 Binding Ability Input
-> 在Input Component中将Ability与tag绑定，在Hero Character中，调用绑定方法并定义回调函数。
+> 在Input Component中将Ability与tag绑定，在Hero Character中，调用绑定方法并定义回调函数，回调函数负责触发技能。
