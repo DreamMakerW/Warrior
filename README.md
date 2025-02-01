@@ -22,3 +22,6 @@
 
 ### 3-8 Binding Ability Input
 > 在Input Component中将Ability与tag绑定，在Hero Character中，调用绑定方法并定义回调函数，回调函数负责触发技能。
+
+### 3-10 Wait for Gameplay Event
+> 这两节课主要是创建动画，创建了动画通知用的蓝图，传递标签，并定义了新的标签，供发送通知时使用。（标签主要是用来识别武器的）
