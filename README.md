@@ -44,3 +44,10 @@
 > 设置蓝图。
 >
 > （不知道为什么少了3-14节的几个资源，已补充）
+
+### 3-16 Handle Unequip Axe
+> 卸载武器时，需要unlinke anim class layers，删除mapping context以及清空授权的能力。
+>
+> UWarriorAbilitySystemComponent负责授权能力以及移除授权能力，已授权的FGameplayAbilitySpecHandle被保存在武器类中。
+>
+> 补充了3-15结尾遗留部分代码。
