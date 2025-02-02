@@ -37,3 +37,10 @@
 > 角色在卸下装备时，需要卸载动画图层，移除授予的能力，移除输入映射等。
 > 
 > 这些跟武器相关，所以将这些内容维护在AWarriorHeroWeapon类中，简而言之，我们在捡起武器的同时，也捡起了一套“系统”。
+
+### 3-15 Grant Weapon Ability
+> UWarriorAbilitySystemComponent类里添加了GrantHeroWeaponAbilities方法，根据武器关联的能力进行授予。
+>
+> 设置蓝图。
+>
+> （不知道为什么少了3-14节的几个资源，已补充）
