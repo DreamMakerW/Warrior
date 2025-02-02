@@ -13,9 +13,9 @@ void UWarriorAbilitySystemComponent::OnAbilityInputPressed(const FGameplayTag& I
 	
 	for (const FGameplayAbilitySpec& AbilitySpec : GetActivatableAbilities())
 	{
-		// 如果DynamicAbilityTags不包含InInputTag
+		// AbilitySpec.DynamicAbilityTags.HasTagExact用来检查某个Ability是否带有匹配InInputTag的tag
 		if (!AbilitySpec.DynamicAbilityTags.HasTagExact(InInputTag)) continue;
-
+		// 如果匹配当前输入操作按键对应的tag，则尝试激活
 		TryActivateAbility(AbilitySpec.Handle);
 	}
 }
