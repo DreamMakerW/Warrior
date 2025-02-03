@@ -146,4 +146,20 @@
 >注意：能力蓝图中设置的是ability tag，而其他地方没有记错的话设置的是input tag，Weapon data中将input tag与能力蓝图绑定，也就与ability tag进行了关联。
 </details>
 
+<details>
+<summary>
+
+### 3-18 Combo Logic
+
+> 本节重点是在GA_Hero_LightAttackMaster中创建了连击的逻辑，连续攻击增加计数，超过一定时间进行重置。
+> 
+> GA_Hero_LightAttack_Axe中则维护了montage的映射。
+>
+> 注意，montage中的slot可以视作一个“动画播放通道”，以控制不同部位的动画。
+</summary>
 </details>
+</details>
+
+
+
+
