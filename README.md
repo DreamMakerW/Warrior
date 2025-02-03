@@ -151,12 +151,14 @@
 
 ### 3-18 Combo Logic
 
+</summary>
+
 > 本节重点是在GA_Hero_LightAttackMaster中创建了连击的逻辑，连续攻击增加计数，超过一定时间进行重置。
 > 
 > GA_Hero_LightAttack_Axe中则维护了montage的映射。
 >
 > 注意，montage中的slot可以视作一个“动画播放通道”，以控制不同部位的动画。
-</summary>
+
 </details>
 </details>
 
