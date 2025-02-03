@@ -160,6 +160,20 @@
 > 注意，montage中的slot可以视作一个“动画播放通道”，以控制不同部位的动画。
 
 </details>
+
+<details>
+
+<summary>
+
+### 3-20 Heavy Attack Logic
+
+</summary>
+
+> 本节与上一节的内容同轻攻击。
+  
+</details>
+
+
 </details>
 
 
