@@ -173,6 +173,20 @@
   
 </details>
 
+<details>
+
+<summary>
+
+### 3-21 Warrior Function Library
+
+> 因为连击系统与动画是独立的，现在需要实现这样的功能：轻击3之后可以直接跳转到重击2，就需要进行通信。
+>
+> 本节创建了一个函数库以供后续使用，比如获取ASC组件，添加标签，移除标签，检测actor是否有标签等。
+  
+</summary>
+  
+</details>
+
 
 </details>
 
