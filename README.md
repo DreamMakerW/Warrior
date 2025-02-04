@@ -199,6 +199,20 @@
   
 </details>
 
+<details>
+
+<summary>
+
+### 3-23 Slow Motion and Sound FX
+  
+</summary>
+
+> 基于AnimNotifyState类创建蓝图，重载函数以控制时间流速。
+>
+> 给montage添加慢动作及音效。
+  
+</details>
+
 
 </details>
 
