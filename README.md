@@ -187,6 +187,18 @@
   
 </details>
 
+<details>
+
+<summary>
+
+### 3-22 Jump To Finisher
+  
+</summary>
+
+> 在轻击和重击的功能蓝图中进行了轻击3->重击2的功能实现，主要思路就是通过Ability System Component添加标签，以识别能否进行跳转。
+  
+</details>
+
 
 </details>
 
