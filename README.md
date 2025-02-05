@@ -227,6 +227,18 @@
 
 </details>
 
+<details>
+
+<summary>
+
+### 3-24 Section Wrap Up
+  
+</summary>
+
+> 注释调试代码，在FWarriorHeroAbilitySet这个结构体中，AbilityToGrant的类型换为更具体的子类UWarriorHeroGameplayAbility，删除部分无用资源。
+
+</details>
+
 
 </details>
 
