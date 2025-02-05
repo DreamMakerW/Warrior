@@ -243,5 +243,22 @@
 </details>
 
 
+## Hero Combat
 
+<details>
+  <summary>Lesson list</summary>
+
+<details>
+
+<summary>
+
+### 4-3 Set Up Enemy Character
+  
+</summary>
+
+> 前期准备，创建Enemy的C++类：character，startup data，gameplay ability，combat component。
+
+</details>
+  
+</details>
 
