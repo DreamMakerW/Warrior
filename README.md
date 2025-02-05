@@ -213,6 +213,20 @@
   
 </details>
 
+<details>
+
+<summary>
+
+### Bug Fixed
+  
+</summary>
+
+> 上一节重击1的montage未保存。
+>
+> 修理了几处bug：之前定义event.unequip.axe标签时多打了空格，修复后导致人物不能正常收回武器，需要在收回武器的能力蓝图和montage中重新选择标签。
+
+</details>
+
 
 </details>
 
