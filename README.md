@@ -271,6 +271,20 @@
 > 创建动画蓝图，在创建模板动画蓝图的时候，并不需要指定骨骼。
 
 </details>
+
+<details>
+
+<summary>
+
+### 4-5 Asynchronous Loading
+  
+</summary>
+
+> 主角因为只有一个，在加载start up data的时候是同步加载的，及时阻塞游戏进程，也很快就加载完了；而敌人数量可能是不定的，所以本节采用了异步加载的方式，在进行异步加载的时候还应用了lambda函数。
+>
+> 回顾一下start up data，该类主要是为了存储ablity而存在的，我们加载start up data也是为了授予主角/敌人能力的，注意，授予能力 ！= 激活能力。
+
+</details>
   
 </details>
 
