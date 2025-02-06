@@ -259,6 +259,18 @@
 > 前期准备，创建Enemy的C++类：character，startup data，gameplay ability，combat component。
 
 </details>
+
+<details>
+
+<summary>
+
+### 4-4 Gruntling Guardian
+  
+</summary>
+
+> 创建动画蓝图，在创建模板动画蓝图的时候，并不需要指定骨骼。
+
+</details>
   
 </details>
 
