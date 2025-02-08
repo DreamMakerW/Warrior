@@ -285,6 +285,95 @@
 > 回顾一下start up data，该类主要是为了存储ablity而存在的，我们加载start up data也是为了授予主角/敌人能力的，注意，授予能力 ！= 激活能力。
 
 </details>
+
+<details>
+
+<summary>
+
+### 4-6 Spawn Enemy Weapon
+  
+</summary>
+
+> 给敌人生成武器，创建游戏能力蓝图BP_Guardian_SpawnWeapon，需要设置tag，创建武器类，设置socket等。
+</details>
+
+<details>
+
+<summary>
+
+### 4-7 Attribute Set
+  
+</summary>
+
+> 给角色设置血量，攻击力等属性。通过宏创建辅助函数。
+>
+> 点击~，在控制台输入showdebug abilitysystem后会显示设置的属性。
+</details>
+
+<details>
+<summary>
+
+### 4-8 Gameplay Effect
+  
+</summary>
+
+> 上一节设置了AttributeSet，而Gameplay Effect的作用则是修改属性值。
+>
+> 本节同时也建立了Curve Table，有点类似于Excel表格填表。
+</details>
+
+<details>
+<summary>
+
+### 4-9 Apply Gameplay Effect To Self
+  
+</summary>
+
+> 创建好Gameplay Effect以后，下一步就是怎么应用的问题，首先在UDataAsset_StartUpDataBase中保存UGameplayEffect，之后在GiveToAbilitySystemComponent函数中应用Gameplay Effect。
+>
+> 注意在DA_Hero中，给StartUpGameplayEffects进行赋值时，有先后顺序，先是MaxHealth，再是CurrentHealth。
+</details>
+
+
+<details>
+<summary>
+
+### 4-10 Init Enemy Attributes
+  
+</summary>
+
+> 跟角色设置属性以及Gameplay Effect的流程差不多，在控制台输出调试信息的时候page down切换到敌人身上，也没有正确显示，于是修改了DefaultGame.ini文件。
+</details>
+
+<details>
+<summary>
+
+### 4-11 Pawn Combat Interface
+  
+</summary>
+
+> 为了做伤害检测，首先需要处理武器的碰撞，而碰撞实际跟动画有关，需要设置ANS_ToggleWeaponCollision，因为AnimNotifyState有明确的起止点，以便启用/禁用武器碰撞。
+>
+> 为了能够启用武器碰撞，首先要获取武器，而武器可以在PawnCombatComponent中被获取，所以可以在PawnCombatComponent中设置一个ToggleCollision函数。
+>
+> 那么问题是怎么获取PawnCombatComponent？我们可以访问的是HeroCombatComponent/EnemyCombatComponent，对于启用/禁用碰撞而言，我们只需要访问基类PawnCombatComponent即可。
+>
+>> 1.用FindComponentByClass()获取组件。
+>> 
+>> 2.BaseCharacter实现自定义的IPawnCombatInterface接口，该接口中只有一个纯虚函数GetPawnCombatComponent()，HeroCharacter/EnemyCharacter需要覆盖虚函数并返回自己的CombatComponent。
+
+</details>
+
+<details>
+<summary>
+
+### 4-12 Toggle Weapon Collision
+  
+</summary>
+
+> 在PawnCombatComponent中创建ToggleWeaponCollision以启用/禁用碰撞，在AnimNotifyState类中进行调用，并在montage中确定AnimNotifyState的起止点。
+
+</details>
   
 </details>
 
