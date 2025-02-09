@@ -374,6 +374,19 @@
 > 在PawnCombatComponent中创建ToggleWeaponCollision以启用/禁用碰撞，在AnimNotifyState类中进行调用，并在montage中确定AnimNotifyState的起止点。
 
 </details>
+
+<details>
+<summary>
+
+### 4-13 On Weapon Begin Overlap
+  
+</summary>
+
+> 本节主要内容为hit流程，在WeaponBase类有WeaponCollisionBox，将BeginOverlap与EndOverlap与WeaponCollisionBox进行绑定，对碰撞的物体进行检测。
+>
+> UPawnCombatComponent则用来处理武器碰撞，创建ToggleWeaponCollision函数待完善。
+
+</details>
   
 </details>
 
