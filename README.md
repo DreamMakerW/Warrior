@@ -425,6 +425,22 @@
 > 为其他轻攻击、重攻击添加ANS通知；为重攻击添加WaitGameplayEvent节点，检测事件。
 
 </details>
+
+
+<details>
+<summary>
+
+### 4-17 Make Gameplay Effect Spec Handle
+  
+</summary>
+
+> 前面做了hit检测，后续自然就是进行伤害处理，如何通过gameplay effect影响attribute set，流程如图所示：
+>
+> ![Image](README_Img/4-17.png)
+>
+> 本节主要是在UWarriorHeroGameplayAbility类中创建了MakeHeroDamageEffectSpecHandle函数，返回FGameplayEffectSpecHandle以供后续使用。
+
+</details>
   
 </details>
 
