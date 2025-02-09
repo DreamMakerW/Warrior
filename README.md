@@ -414,6 +414,17 @@
 > 检测到物体以后，下一步就是进行通知以便就行后续的伤害处理，HeroCombatComponent中重写了OnHitTargetActor，进行伤害检测，在次函数中调用函数UAbilitySystemBlueprintLibrary::SendGameplayEventToActor()。在GA_LightAttack中定义了WaitGameplayEvent节点，当SendGameplayEventToActor调用以后，该事件会被激活（选择了同一个标签），执行后续伤害处理流程。
 
 </details>
+
+<details>
+<summary>
+
+### 4-16 Set Up Attack Montages
+  
+</summary>
+
+> 为其他轻攻击、重攻击添加ANS通知；为重攻击添加WaitGameplayEvent节点，检测事件。
+
+</details>
   
 </details>
 
