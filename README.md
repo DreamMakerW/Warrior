@@ -400,6 +400,20 @@
 > ![Image](README_Img/4-14.png)
 
 </details>
+
+
+<details>
+<summary>
+
+### 4-15 Notify Melee Hit
+  
+</summary>
+
+> 确保每次攻击时，只攻击一次：在PawnCombatComponent创建一个AAcotr*数组，当检测到对象时加入数组，之后如果再次检测到同一个actor，则直接跳过。
+>
+> 检测到物体以后，下一步就是进行通知以便就行后续的伤害处理，HeroCombatComponent中重写了OnHitTargetActor，进行伤害检测，在次函数中调用函数UAbilitySystemBlueprintLibrary::SendGameplayEventToActor()。在GA_LightAttack中定义了WaitGameplayEvent节点，当SendGameplayEventToActor调用以后，该事件会被激活（选择了同一个标签），执行后续伤害处理流程。
+
+</details>
   
 </details>
 
