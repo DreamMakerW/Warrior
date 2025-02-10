@@ -442,13 +442,29 @@
 
 </details>
 
-### 4-17 Make Gameplay Effect Spec Handle
+<details>
+<summary>
+
+### 4-18 Hero Damage Info
   
 </summary>
 
 > 上一节课的补充，为MakeHeroDamageEffectSpecHandle准备入参，创建Effect Class，tag，获取base damage等。
 
 </details>
+
+<details>
+<summary>
+
+### 4-19 Apply Effect Spec Handle To Target
+  
+</summary>
+
+> 创建好gameplay effect spec handle以后，下一步就是将handle应用于目标：在UWarriorGameplayAbility创建了相关函数，重点是调用UAbilitySystemComponent::ApplyGameplayEffectSpecToTarget函数。
+
+</details>
+
+
   
 </details>
 
