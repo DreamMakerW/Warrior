@@ -464,6 +464,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-20 Capture Relevant Attributes
+  
+</summary>
+
+> 为了能够进行伤害计算，需要对attributes进行捕获，本节课提供了两种方式进行捕获：一种是较慢的方式，另一种则是通过宏相对而言较快的方式进行捕获。
+
+</details>
+
 
   
 </details>
