@@ -441,6 +441,14 @@
 > 本节主要是在UWarriorHeroGameplayAbility类中创建了MakeHeroDamageEffectSpecHandle函数，返回FGameplayEffectSpecHandle以供后续使用。
 
 </details>
+
+### 4-17 Make Gameplay Effect Spec Handle
+  
+</summary>
+
+> 上一节课的补充，为MakeHeroDamageEffectSpecHandle准备入参，创建Effect Class，tag，获取base damage等。
+
+</details>
   
 </details>
 
