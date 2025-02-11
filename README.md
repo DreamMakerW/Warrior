@@ -486,6 +486,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-22 Calculate Final Damage Done
+  
+</summary>
+
+> 在Execute_Implementation函数中编写**伤害计算逻辑**。
+
+</details>
+
 
   
 </details>
