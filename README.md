@@ -497,6 +497,18 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-23 Set Up Heavy Attacks For Damage
+  
+</summary>
+
+> 在蓝图中修改heavy attck的逻辑，使得gameplay effect能够作用于attributes。
+>
+> 至此，前面流程图中Gameplay Effect Execution Calculation环节也就结束了。
+
+</details>
 
   
 </details>
