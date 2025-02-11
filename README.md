@@ -475,6 +475,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-21 Retrieve Hero Damage Info
+  
+</summary>
+
+> 上节课对attributes进行了捕获，这节课主要是重载UGameplayEffectExecutionCalculation下的Execute_Implementation函数，以取得attributes的值。
+
+</details>
+
 
   
 </details>
