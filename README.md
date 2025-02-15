@@ -548,6 +548,19 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-27 Material Hit FX
+  
+</summary>
+
+> 修改重击蓝图，使得重击能够触发受击动画。
+>
+> 修改enemy的材质，并通过参数对enemy材质进行控制，在GA_Enemy_HitReact_Base蓝图中，在角色被击中时修改参数，从而使得enemy呈现出不同的样子。
+
+</details>
+
   
 </details>
 
