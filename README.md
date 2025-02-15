@@ -583,6 +583,20 @@
 
 </details>
 
+
+<details>
+<summary>
+
+### 4-30 Hit React Sound
+  
+</summary>
+
+> 在敌人的montage中添加受击音效。
+>
+> 为了解决同时击中多个敌人导致同时播放多个音效的问题，创建Sound Concurrency资产，控制同时播放的音效数量。
+
+</details>
+
   
 </details>
 
