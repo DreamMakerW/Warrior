@@ -597,6 +597,19 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-31 Gameplay Cues
+  
+</summary>
+
+> 斧头的击中音效不要放在montage里，因为我们想要的是只有在斧头击中目标以后才播放击中音效。
+>
+> 本节使用了Gameplay Cue来播放音效。
+
+</details>
+
   
 </details>
 
