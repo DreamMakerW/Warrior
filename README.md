@@ -610,6 +610,21 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-32 Enemy Death Ability
+  
+</summary>
+
+> Enemy Death Process：Attribute Set(Add tag to actor) → Play Death Montage(Triggered on tag added) → Death FX(Material FX / Particle FX)
+>
+> 本节首先完成了死亡能力的授予，与其他ability流程一样，只不过触发ability变成了通过tag触发。
+>
+> 在GA_Enemy_Death_Base蓝图中播放montage和执行gameplay cue播放声音。
+
+</details>
+
   
 </details>
 
