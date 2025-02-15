@@ -411,7 +411,7 @@
 
 > 确保每次攻击时，只攻击一次：在PawnCombatComponent创建一个AAcotr*数组，当检测到对象时加入数组，之后如果再次检测到同一个actor，则直接跳过。
 >
-> 检测到物体以后，下一步就是进行通知以便就行后续的伤害处理，HeroCombatComponent中重写了OnHitTargetActor，进行伤害检测，在次函数中调用函数UAbilitySystemBlueprintLibrary::SendGameplayEventToActor()。在GA_LightAttack中定义了WaitGameplayEvent节点负责监听（选择了同一个标签），当SendGameplayEventToActor调用以后，该事件会被激活，执行后续伤害处理流程。
+> 检测到物体以后，下一步就是进行通知以便就行后续的伤害处理，HeroCombatComponent中重写了OnHitTargetActor，进行伤害检测，在此函数中调用函数UAbilitySystemBlueprintLibrary::SendGameplayEventToActor()。在GA_LightAttack中定义了WaitGameplayEvent节点负责监听（选择了同一个标签），当SendGameplayEventToActor调用以后，该事件会被激活，执行后续伤害处理流程。
 
 </details>
 
@@ -569,6 +569,17 @@
 </summary>
 
 > 实现了“卡肉”效果。Hit pause也是作为主角的一种ability，实现流程与之前基本一致，而hit pause则是通过event进行触发的，enemy的受击动画，通过在蓝图中调用Send Gameplay Event To Actor进行触发，而hit pause这里则在C++中调用了SendGameplayEventToActor函数进行触发。
+
+</details>
+
+<details>
+<summary>
+
+### 4-29 Camera Shake
+  
+</summary>
+
+> GA_Hero_HitPause蓝图中加入相机抖动节点，创建相机抖动蓝图。
 
 </details>
 
