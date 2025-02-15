@@ -35,10 +35,7 @@ AWarriorHeroCharacter::AWarriorHeroCharacter()
 	// 相机
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
-	if (FollowCamera) {
-
-		Debug::Print(FollowCamera->GetAttachParent()->GetName());
-	}
+	
 	FollowCamera->bUsePawnControlRotation = false;
 
 	// 设置角色移动的一些属性
