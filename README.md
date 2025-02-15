@@ -561,6 +561,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-28 Hit Pause
+  
+</summary>
+
+> 实现了“卡肉”效果。Hit pause也是作为主角的一种ability，实现流程与之前基本一致，而hit pause则是通过event进行触发的，enemy的受击动画，通过在蓝图中调用Send Gameplay Event To Actor进行触发，而hit pause这里则在C++中调用了SendGameplayEventToActor函数进行触发。
+
+</details>
+
   
 </details>
 
