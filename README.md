@@ -524,6 +524,19 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-25 Hit React Ability
+  
+</summary>
+
+> 从本节开始，下面几节主要做一些所谓的“打击感”。
+>
+> 首先是受击反馈，这也是一种ability，敌人的ability流程是：Ability Tags -> Gameplay Ability Blueprint（先创建基类蓝图，写逻辑，子类蓝图填数据） -> Anim Montage -> Grant Ability（DA里选择对应能力蓝图）。
+
+</details>
+
   
 </details>
 
