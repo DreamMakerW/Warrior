@@ -537,6 +537,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-26 Trigger Hit React Ability
+  
+</summary>
+
+> 之前已经授予了能力，下一步是怎么“触发”的问题，很明显，在角色进行攻击的时候触发敌人的受击动画，所以在GA_Hero_LightAttackMaster蓝图中使用了蓝图库中的方法Send Gameplay Event To Actor，此方法被调用后，触发GA_Enemy_HitReact_Base事件，从而调整敌人面向的方向以及播放蒙太奇。
+
+</details>
+
   
 </details>
 
