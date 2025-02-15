@@ -510,6 +510,20 @@
 
 </details>
 
+
+<details>
+<summary>
+
+### 4-24 Modify Health Attribute
+  
+</summary>
+
+> 重载PostGameplayEffectExecute函数，通过Data.EvaluatedData.Attribute与其他属性进行匹配，修改对应的属性。
+>
+> 本节遇到一个问题就是GAMEPLAYATTRIBUTE_PROPERTY_GETTER(ClassName, PropertyName)没有生效，而其他的Getter和Setter都是正常的，应该是跟宏里面static有关。
+
+</details>
+
   
 </details>
 
