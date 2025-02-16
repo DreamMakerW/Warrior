@@ -669,6 +669,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-36 Pawn UI Component
+  
+</summary>
+
+> 创建PawnUIComponent及其子类，创建PawnUIInterface接口，以便查找PawnUIComponent，使WarriorBaseCharacter及子类实现该接口。
+
+</details>
+
   
 </details>
 
