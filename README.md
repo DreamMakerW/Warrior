@@ -680,6 +680,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-37 Broadcast Value Change
+  
+</summary>
+
+> AttributeSet中获取UIComponent，而UIComponent中定义了**委托函数**，当属性发生变化时，AttributeSet中获取的UIComponent则会进行广播。
+
+</details>
+
   
 </details>
 
