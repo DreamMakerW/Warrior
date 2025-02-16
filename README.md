@@ -657,6 +657,18 @@
 
 </details>
 
+
+<details>
+<summary>
+
+### 4-35 Dissolve Niagara FX
+  
+</summary>
+
+> 使用Spawn System Attached给死亡后的enemy添加粒子特效，首先在蓝图接口中将Niagara作为函数的输入，之后在蓝图中进行加载。添加完后的粒子效果有个问题，就是颜色与enemy溶解时材质的颜色不一致，所以获取enmey的材质，找到其颜色参数，赋予niagara相关参数即可。
+
+</details>
+
   
 </details>
 
