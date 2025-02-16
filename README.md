@@ -639,6 +639,24 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-34 Dissolve Material FX
+  
+</summary>
+
+> 给enemy和enemy weapon添加死亡后慢慢消失的效果，也就是在BP_EnemyCharacter_Base中修改材质参数，缓慢溶解的过程使用timeline来实现。
+>
+> 之前一直不是很清楚texture, material, anim, montage, mesh, skeleton的区别，这里说一下自己的浅见：
+> > texture & material: texture是基元，提供纹理信息，而material则是综合texture及算法实现的效果，比如溶解效果的实现。
+> > 
+> > anim & montage: 同样anim是基元，montage在anim的基础上，进行动画的逻辑控制、动画混合等。
+> > 
+> > mesh & skeleton: mesh是3D模型的集合结构，决定了物体的形状，而skeleton是由骨骼和关节组成的层级结构，驱动mesh变形以实现动画。
+
+</details>
+
   
 </details>
 
