@@ -625,6 +625,20 @@
 
 </details>
 
+
+<details>
+<summary>
+
+### 4-33 BP Death Interface
+  
+</summary>
+
+> 解决enemy死亡以后动画恢复至idle的问题，需要停用动画，关闭碰撞等。
+>
+> 怎么从EndAbility调用BP_Enemy_Character_Base中的逻辑？可以选择Cast to或者使用蓝图接口，本节创建了蓝图接口以实现通信。
+
+</details>
+
   
 </details>
 
