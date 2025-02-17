@@ -691,6 +691,21 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-38 Listen For Broadcasting
+  
+</summary>
+
+> 创建WarriorWidgetBase基类，该类重载NativeOnInitialized函数，此函数通过IPawnUIInterface接口获得HeroUIComponent，调用BP_OnOwningHeroUIComponentInitialized函数（此函数在Widget蓝图中被重写，绑定血量修改时的事件）。
+>
+> 角色蓝图中添加了Widget，之后触发Widget蓝图中NativeOnInitialized函数，子类中重载了调用BP_OnOwningHeroUIComponentInitialized函数，则会对其进行调用。
+>
+> 注意，此时在AttributeSet中，我们通过接口进行了广播，它并不知道Widget的存在；而反观WarriorWidgetBase类，借助于基类中的蓝图接口，它的子类蓝图也只是绑定了委托事件，并不知道AttributeSet的存在。
+
+</details>
+
   
 </details>
 
