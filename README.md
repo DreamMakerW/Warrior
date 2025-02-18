@@ -739,6 +739,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-42 Template Icon Slot Widget
+  
+</summary>
+
+> 在蓝图中编写图标的显示逻辑。
+
+</details>
+
   
 </details>
 
