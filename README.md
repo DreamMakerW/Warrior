@@ -706,6 +706,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-39 Enemy Init Created Widget
+  
+</summary>
+
+> 与上一节的内容差不多，为enemy创建widget相关逻辑。
+
+</details>
+
   
 </details>
 
