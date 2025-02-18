@@ -742,11 +742,15 @@
 <details>
 <summary>
 
-### 4-42 Template Icon Slot Widget
+### 4-43 Hero Overlay Widget
   
 </summary>
 
-> 在蓝图中编写图标的显示逻辑。
+> 创建角色UI的canvas（少用，用多了影响性能），排列之前创建的模板部件。
+>
+> WBP_HeroOverlay蓝图中重写WarriorWidgetBase类中的BP_OnOwningHeroUIComponentInitialized函数，将委托事件赋予函数逻辑，从而在进行广播的时候修改状态条。
+>
+> 将创建widget作为能力蓝图赋予角色。
 
 </details>
 
