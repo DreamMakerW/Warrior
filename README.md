@@ -728,6 +728,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-41 Set Status Bar Fill Color
+  
+</summary>
+
+> 在蓝图中编写状态条的颜色逻辑。
+
+</details>
+
   
 </details>
 
