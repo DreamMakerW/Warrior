@@ -29,3 +29,4 @@ void UWarriorWidgetBase::InitEnemyCreateWidget(AActor* OwningEnemyActor)
 		BP_OnOwningEnemyUIComponentInitialized(EnemyUIComponent);
 	}
 }
+ 
