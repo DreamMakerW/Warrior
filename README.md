@@ -754,6 +754,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-44 Enemy Health Widget Component
+  
+</summary>
+
+> 创建敌人的health bar，在AWarriorEnemyCharacter类的构造函数中创建WidgetComponent，在BeingPlay()中调用UWarriorWidgetBase类中的InitEnemyCreatedWidget函数，使得health bar实时显示enemy血量。
+
+</details>
+
   
 </details>
 
