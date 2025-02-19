@@ -765,6 +765,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-45 Hide Enemy Health Bar
+  
+</summary>
+
+> 在WBP_DefaultEnemyHealthBar蓝图中编写health bar的隐藏逻辑，比如一开始是隐藏的，一定时间后不被攻击会隐藏，血量清空后会隐藏。注意初始化的时候会调用一次OnCurrentHealthChanged_Event节点。
+
+</details>
+
   
 </details>
 
