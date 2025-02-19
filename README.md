@@ -776,6 +776,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 4-46 Update Weapon Icon
+  
+</summary>
+
+> 实现装备/卸载武器时变换图标的功能：图标作为weapon data的一种资源，在装备/卸载武器的ability中，触发广播，对应的委托事件则负责更新图标。
+
+</details>
+
   
 </details>
 
