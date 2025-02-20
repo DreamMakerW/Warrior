@@ -803,3 +803,22 @@
   
 </details>
 
+
+## Enemy AI
+
+<details>
+  <summary>Lesson list</summary>
+
+  <details>
+<summary>
+
+### 5-3 Crowd Following Component
+  
+</summary>
+
+> 躲避算法分为两种：RVO Avoidance与Detour Crowd Avoidance，从表现上来看Detour Crowd Avoidance更好一些。
+>
+> 创建AWarriorAIController，在初始化方法中设置PathFollowingComponent为UCrowdFollowingComponent，以启用Detour Crowd Avoidance；创建敌人AI蓝图。
+
+</details>
+</details>
