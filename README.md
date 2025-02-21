@@ -833,4 +833,16 @@
 > 实现AI的perception功能，创建EnemyPerceptionComponent与AISenseConfig_Sight，设置相关属性。创建另一个新函数，以便绑定到委托事件。
 
 </details>
+
+<details>
+<summary>
+
+### 5-5 Generic Team ID
+  
+</summary>
+
+> 设置TeamID以分辨不同的阵营，原理是实现IGenericTeamAgentInterface接口，重写其中函数。
+
+</details>
+
 </details>
