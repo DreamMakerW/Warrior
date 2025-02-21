@@ -23,7 +23,7 @@ AWarriorAIController::AWarriorAIController(const FObjectInitializer& ObjectIniti
 	AISenseConfig_Sight->DetectionByAffiliation.bDetectFriendlies = false;
 	AISenseConfig_Sight->DetectionByAffiliation.bDetectNeutrals = false;
 	AISenseConfig_Sight->SightRadius = 5000.f;
-	// 敌人永远不会丢失玩家的视野
+	// 使得敌人不会丢失对玩家的视野
 	AISenseConfig_Sight->LoseSightRadius = 0.f;
 	AISenseConfig_Sight->PeripheralVisionAngleDegrees = 360.f;
 
@@ -32,8 +32,29 @@ AWarriorAIController::AWarriorAIController(const FObjectInitializer& ObjectIniti
 	EnemyPerceptionComponent->SetDominantSense(UAISenseConfig_Sight::StaticClass());
 	EnemyPerceptionComponent->OnTargetPerceptionUpdated.AddUniqueDynamic(this, &ThisClass::OnEnemyPerceptionUpdated);
 
+	// 设置TeamID
+	SetGenericTeamId(FGenericTeamId(1));
+}
+
+ETeamAttitude::Type AWarriorAIController::GetTeamAttitudeTowards(const AActor& Other) const
+{
+	const APawn* PawnToCheck = Cast<const APawn>(&Other);
+
+	const IGenericTeamAgentInterface* OtherTeamAgent = Cast<const IGenericTeamAgentInterface>(PawnToCheck->GetController());
+	
+	if (OtherTeamAgent && OtherTeamAgent->GetGenericTeamId() != GetGenericTeamId())
+	{
+		return ETeamAttitude::Hostile;
+	}
+
+	return ETeamAttitude::Friendly;
 }
 
 void AWarriorAIController::OnEnemyPerceptionUpdated(AActor* Actor, FAIStimulus Stimulus)
 {
+	if (Stimulus.WasSuccessfullySensed() && Actor)
+	{
+		// Actor被AI所感知
+		Debug::Print(Actor->GetActorNameOrLabel() + TEXT(" was sensed"), FColor::Purple);
+	}
 }
