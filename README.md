@@ -845,4 +845,19 @@
 
 </details>
 
+
+
+<details>
+<summary>
+
+### 5-6 Behavior Tree
+  
+</summary>
+
+> 使用行为树来控制enemy的行为逻辑，创建黑板，其中的key对应的value通过C++进行配置，OnEnemyPerceptionUpdated是绑定的委托事件，当敌人感知到actor的时候，则对key进行设置。
+>
+> 为了能够运行行为树，需要在AIController中重写OnPosses函数，执行Run Behavior Tree节点。
+
+</details>
+
 </details>
