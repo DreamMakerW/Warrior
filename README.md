@@ -875,4 +875,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 5-8 Behavior Tree Node Types
+  
+</summary>
+
+> 讲解了行为树中的四种节点类型：composite node, decorator node, service node, task node。
+>
+> 创建service node，可通过蓝图/C++实现service逻辑。
+
+</details>
+
 </details>
