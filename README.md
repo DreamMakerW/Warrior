@@ -860,4 +860,19 @@
 
 </details>
 
+<details>
+<summary>
+
+### 5-7 Configure AI Avoidance
+  
+</summary>
+
+> 为了拥有更好的avoidance质量，需要设置一些参数，分为两部分：
+>
+> > 其中一部分参数并没有暴露给蓝图，可以在C++中创建一些暴露给蓝图的变量，通过这些变量设置参数。
+> > 
+> > 另外一部分参数通过Project Settings - Crowd Manager来进行设置。
+
+</details>
+
 </details>
