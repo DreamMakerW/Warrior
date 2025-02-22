@@ -899,4 +899,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 5-10 Orient To Target Actor
+  
+</summary>
+
+> 通过C++的方式编写自定义Service，父类可以选择BTService或者BTService_BlackboardBase，BTService类基本需要从头开始编写，而BTService_BlackboardBase类中有一些初始代码。
+>
+> 重写TickNode函数，实现enemy面向角色的功能。
+
+</details>
+
 </details>
