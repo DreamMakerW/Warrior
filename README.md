@@ -923,4 +923,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 5-12 Custom Query Context
+  
+</summary>
+
+> 修复enemy同时感知角色和test pawn的问题。
+>
+> 通过蓝图自定义context，使得item生成在角色周围，EQS负责生成item，过滤item；在行为树中运行EQS任务，将过滤出来的点存到黑板的键值中，MoveTo节点又从中获取位置，从而控制enemy移动。
+
+</details>
+
 </details>
