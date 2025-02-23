@@ -936,4 +936,17 @@
 
 </details>
 
+<details>
+<summary>
+
+### 5-13 Toggle Strafing State
+  
+</summary>
+
+> 通过蓝图自定义task处理敌人的strafing状态：设置旋转，最大行走速度，添加标签等。
+>
+> > 注意：对于自定义蓝图的行为树节点，默认是存在于世界中的实例，意味着变量的值在不同的execution中可以被保存，只适用于蓝图，而不能适用于C++（因为没有被实例化）。
+
+</details>
+
 </details>
