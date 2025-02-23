@@ -20,6 +20,7 @@ UBTService_OrientToTargetActor::UBTService_OrientToTargetActor()
 	InTargetActorKey.AddObjectFilter(this, GET_MEMBER_NAME_CHECKED(ThisClass, InTargetActorKey), AActor::StaticClass());
 }
 
+// 为了使得blackboard key selector能够正常工作，需要重写该函数
 void UBTService_OrientToTargetActor::InitializeFromAsset(UBehaviorTree& Asset)
 {
 	Super::InitializeFromAsset(Asset);
