@@ -949,4 +949,16 @@
 
 </details>
 
+
+<details>
+<summary>
+
+### 5-14 Calculate Direction
+  
+</summary>
+
+> UWarriorCharacterAnimInstance类中声明了新的变量LocomotionDirection，并在NativeThreadSafeUpdateAnimation函数中进行更新。在ABP_Enemy_Base中引入该变量，同时声明一个新的blend space变量，通过该变量控制blend space动画的播放效果。（主要是展示了C++中变量与blend space的配合）
+
+</details>
+
 </details>
