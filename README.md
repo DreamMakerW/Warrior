@@ -973,4 +973,16 @@
 </details>
 
 
+<details>
+<summary>
+
+### 5-16 Compute Success Chance
+  
+</summary>
+
+> 通过蓝图自定义行为树中的装饰器节点，以计算敌人有多大的概率发起攻击。
+
+</details>
+
+
 </details>
