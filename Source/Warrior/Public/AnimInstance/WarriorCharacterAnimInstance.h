@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "AnimInstance/WarriorBaseAnimInstance.h"
+
 #include "WarriorCharacterAnimInstance.generated.h"
 
 class AWarriorBaseCharacter;
@@ -35,5 +36,8 @@ protected:
 
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = "AnimData|LocomotionData")
 	bool bHasAcceleration;
+
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = "AnimData|LocomotionData")
+	float LocomotionDirection;
 	
 };
