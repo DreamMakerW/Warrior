@@ -961,4 +961,16 @@
 
 </details>
 
+<details>
+<summary>
+
+### 5-15 Strafing Blend Space
+  
+</summary>
+
+> 创建enemy的blend space，通过horizontal axis和vertical axis两个轴变量来控制动画表现。
+
+</details>
+
+
 </details>
