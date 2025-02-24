@@ -984,5 +984,16 @@
 
 </details>
 
+<details>
+<summary>
+
+### 5-17 Dot Product Test
+  
+</summary>
+
+> 敌人在选择位置的时候，周围生成的点都是可选的，想要过滤掉敌人前方的一些点：原理上点积可以比较两个向量之间的角度，所以在EQS查询中增加了Dot测试以进行过滤。
+
+</details>
+
 
 </details>
