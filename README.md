@@ -995,5 +995,16 @@
 
 </details>
 
+<details>
+<summary>
+
+### 5-18 Enemy Melee Ability
+  
+</summary>
+
+> 授予敌人ability的流程：创建ability基类蓝图 -> 创建ability子类蓝图 -> 配置DA_Guardian。
+
+</details>
+
 
 </details>
