@@ -1040,4 +1040,18 @@
 </details>
 
 
+<details>
+<summary>
+
+### 5-21 Notify Melee Hit
+
+</summary>
+
+> 重写OnHitTargetActor，避免单次挥动武器，措辞判定。
+>
+> > 借助于SendGameplayEventToActor函数，调用事件（GA_Enemy_MeleeAttack_Base蓝图中的Wait Gameplay Event节点）。
+
+</details>
+
+
 </details>
