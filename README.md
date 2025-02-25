@@ -1006,5 +1006,22 @@
 
 </details>
 
+<details>
+<summary>
+
+### 5-19 Activate Ability By Tag
+  
+</summary>
+
+> 激活enemy能力：
+>
+> > 1.在UWarriorAbilitySystemComponent类中定义函数TryActivateAbilityByTag，通过标签激活能力。
+> >
+> > 2.创建BTTask_ActivateAbilityByTag蓝图，重写父类蓝图中定义的OnEnemyExecuteTask函数，获取ability system component，调用定义的TryActivateAbilityByTag函数，以激活能力。
+> >
+> > 3.在行为树中执行该任务（行为树需要配置给AI Controller）。
+
+</details>
+
 
 </details>
