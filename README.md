@@ -1047,9 +1047,20 @@
 
 </summary>
 
-> 重写OnHitTargetActor，避免单次挥动武器，措辞判定。
+> 重写OnHitTargetActor，避免单次挥动武器，多次判定。
 >
 > > 借助于SendGameplayEventToActor函数，调用事件（GA_Enemy_MeleeAttack_Base蓝图中的Wait Gameplay Event节点）。
+
+</details>
+
+<details>
+<summary>
+
+### 5-22 Make Enemy Damage Effect Spec Handle
+
+</summary>
+
+> 为了能够应用伤害，在C++中创建MakeEnemyDamageEffectSpecHanlde函数，返回FGameplayEffectSpecHandle，以供调用ApplyEffectSpecHandleToTarget节点。
 
 </details>
 
