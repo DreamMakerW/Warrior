@@ -1024,4 +1024,20 @@
 </details>
 
 
+<details>
+<summary>
+
+### 5-20 Is Target Pawn Hostile
+
+</summary>
+
+> 给montage添加notify state，使得武器碰撞到角色时启用碰撞。
+>
+> 判断是否为地图pawn，UWarriorFunctionLibrary类中创建函数IsTargetPawnHostile，通过GenericTeamId判断是否为敌对。
+>
+> UEnemyCombatComponent类中重写OnHitTargetActor委托函数。
+
+</details>
+
+
 </details>
