@@ -1064,5 +1064,16 @@
 
 </details>
 
+<details>
+<summary>
+
+### 5-23 Apply Enemy Damage
+
+</summary>
+
+> MakeEnemyDamageEffectSpecHandle中有个入参是InDamageScalableFloat，在蓝图中提升为了变量，为其指定curve table。
+
+</details>
+
 
 </details>
