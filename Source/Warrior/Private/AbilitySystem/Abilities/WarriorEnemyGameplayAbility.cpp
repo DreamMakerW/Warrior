@@ -20,7 +20,7 @@ UEnemyCombatComponent* UWarriorEnemyGameplayAbility::GetEnemyCombatComponentFrom
     return GetEnemyCharacterFromActorInfo()->GetEnemyCombatComponent();
 }
 
-FGameplayEffectSpecHandle UWarriorEnemyGameplayAbility::MakeEnemyDamageEffectSpecHanlde(TSubclassOf<UGameplayEffect> EffectClass, const FScalableFloat& InDamageScalableFloat)
+FGameplayEffectSpecHandle UWarriorEnemyGameplayAbility::MakeEnemyDamageEffectSpecHandle(TSubclassOf<UGameplayEffect> EffectClass, const FScalableFloat& InDamageScalableFloat)
 {
     check(EffectClass);
 
