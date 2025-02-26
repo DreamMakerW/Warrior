@@ -1099,5 +1099,22 @@
 
 </details>
 
+<details>
+<summary>
+
+### 5-26 Construct Native BT Task
+
+</summary>
+
+> 解决另外一个问题：当角色处于敌人正后方时，敌人先播放攻击动画再转身。
+>
+> 以BTTaskNode节点为父节点，创建自定义蓝图节点。
+>
+> 值得注意的是：C++创建的Behavior task默认不会在世界中进行实例化，所以对于那些没有实例化的节点，一般来说变量的值也无法保存。
+> >
+> > 如果要重用变量中的值：需要创建结构体，重写GetInstanceMemorySize函数，重写后会为结构体分配内存，之后就可以从该结构体中取值了。
+
+</details>
+
 
 </details>
