@@ -1075,5 +1075,18 @@
 
 </details>
 
+<details>
+<summary>
+
+### 5-24 Motion Warping
+
+</summary>
+
+> 解决enemy朝向问题：采用Motion Warping插件。
+>
+> 在C++中创建UMotionWarpingComponent，之后在montage中设置notify state，设置参数（注意动画要启用root motion）。
+
+</details>
+
 
 </details>
