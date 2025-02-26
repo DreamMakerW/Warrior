@@ -1088,5 +1088,16 @@
 
 </details>
 
+<details>
+<summary>
+
+### 5-25 Update Motion Warp Target
+
+</summary>
+
+> 继续上一节的工作，我们需要enemy更新它的朝向，但是又不必每帧更新，可以采取自定义BTService的方式实现，重写蓝图中Receive Tick AI事件。从黑板中获取键TargetActor，同时这个名称与notify state中Warp Target Name要一致。
+
+</details>
+
 
 </details>
