@@ -1140,4 +1140,18 @@
 </details>
 
 
+<details>
+<summary>
+
+### 5-29 Does Actor Have Tag Decorator
+
+</summary>
+
+> 本节要解决的问题是，敌人在撤回原来的位置时，如果受到攻击，仍然继续往回撤，此时敌人应该进行反击。
+>
+> 想要通过添加装饰器节点来解决该问题，当敌人受到攻击时，添加tag表示敌人的状态。行为树中检测tag的节点并不能中断其他分支，于是考虑自定义BTDecorator节点，重写PerformConditionCheckAI函数。
+
+</details>
+
+
 </details>
