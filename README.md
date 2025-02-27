@@ -1153,5 +1153,20 @@
 
 </details>
 
+<details>
+<summary>
+
+### 5-30 Duration Gameplay Effect
+
+</summary>
+
+> 上节课提到要给敌人添加tag表示受到攻击。
+>
+> 怎么添加：通过持续性的gameplay effect进行添加。
+>
+> 何时添加：在敌人受到攻击时添加，也就是在敌人hit react的ability中添加此标签。
+
+</details>
+
 
 </details>
