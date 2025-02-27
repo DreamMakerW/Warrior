@@ -1117,4 +1117,16 @@
 </details>
 
 
+<details>
+<summary>
+
+### 5-27 Rotate Enemy In Task
+
+</summary>
+
+> 重写ExecuteTask及TickTask函数，在ExecuteTask中返回InProgress，由TickTask函数处理剩余部分逻辑，以实现转向。
+
+</details>
+
+
 </details>
