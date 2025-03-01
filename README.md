@@ -1179,5 +1179,18 @@
 
 </details>
 
+<details>
+<summary>
+
+### 5-32 Guardian Attack Sound FX
+
+</summary>
+
+> 在enemey的montage中添加喊叫和攻击的音效，另外通过tag在ability中播放命中敌人时的gameplay cue。
+>
+> 目前总结下来，montage添加的音效是和动画相关的，而gameplay cue添加的音效是和逻辑相关的。
+
+</details>
+
 
 </details>
