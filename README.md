@@ -1168,5 +1168,16 @@
 
 </details>
 
+<details>
+<summary>
+
+### 5-31 Should Abort All Logic
+
+</summary>
+
+> 当角色hp为0的时候，enemy应该停止攻击：为行为树创建新的装饰器节点，使用蓝图重写PerformConditionCheckAI逻辑，通过dead标签检测actor是否死亡。
+
+</details>
+
 
 </details>
