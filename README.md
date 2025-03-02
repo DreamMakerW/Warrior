@@ -1251,22 +1251,6 @@
 </details>
 
 
-<details>
-
-<summary>
-    
-### 6-6 Get Value At Level
-
-</summary>
-
-> 上一讲中，翻滚方式是通过硬编码控制的，本讲对其进行了优化：设置一个ScalableFloat变量，选择对应的Curve Table。
->
-> 为了从ScalableFloat变量中获取float值，在UWarriorFunctionLibrary类中声明了一个辅助函数以实现此功能。
-
-
-</details>
-
-
 
 
 </details>
