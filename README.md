@@ -1192,5 +1192,32 @@
 
 </details>
 
+</details>
+
+## Hero Combat Abilities
+
+<details>
+<summary>Lesson list</summary>
+
+<details>
+
+<summary>
+    
+### 6-3 Two-Key Input Action
+
+</summary>
+
+> 给角色添加翻滚的能力，首先回顾一下添加角色能力的流程：Ability Tags -> Gameplay Ability Blueprint -> Anim Montage -> Ability Input Action -> Grant Ability。
+>
+> 翻滚需要按方向键 + 空格键，在配置InputAction的时候，要选择与IA_Move协同触发。之后
+> - 配置InputConfig，将InputAction与InputTag对应。
+> 
+> - 配置MappingContext，将InputAction与用户输入绑定。、
+
+
+</details>
+
+
+
 
 </details>
