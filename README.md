@@ -1217,6 +1217,23 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 6-4 Get Last Movement Input
+
+</summary>
+
+> 通过Motion Warping扭曲角色动画，使得角色朝运动方向翻滚。
+>
+> 流程：
+>  - 在montage中添加notify state，设置warp target name，注意要取消warping translation的对勾（否则角色会瞬移）。
+>  - 在ability通过Get Last Movement Input Vector获取角色移动向量（也就是角色在翻滚瞬间的朝向），通过Add or Update Warp Target from Location and Rotation变形角色动画。
+
+
+</details>
+
 
 
 
