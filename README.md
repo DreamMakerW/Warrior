@@ -1235,6 +1235,22 @@
 </details>
 
 
+<details>
+
+<summary>
+    
+### 6-5 Rolling Distance
+
+</summary>
+
+> 控制翻滚的距离，实现方式同样也是通过motion warping，需要注意的时候，此次添加notify state的时候要勾选warping translation，取消勾选warp rotation，其他与变形翻滚朝向做法差不多。
+>
+> 值得一提的是调用了line trace for objects节点绘制线条，以供调试。
+
+
+</details>
+
+
 
 
 </details>
