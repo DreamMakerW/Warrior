@@ -1294,6 +1294,19 @@
 </details>
 
 
+<details>
+
+<summary>
+    
+### 6-9 Trigger Hero Hit React
+
+</summary>
+
+> 授予角色受击能力，之后就是能力的激活：在GA_Enemy_MeleeAttack_Base中，通过Send Gameplay Event to Actor节点激活受击能力。
+
+</details>
+
+
 
 
 </details>
