@@ -1307,6 +1307,19 @@
 </details>
 
 
+<details>
+
+<summary>
+    
+### 6-10 Hero Hit FX
+
+</summary>
+
+> 创建材质实例，当角色被攻击时，在能力蓝图中修改材质的参数，从而显示不一样的颜色。
+
+</details>
+
+
 
 
 </details>
