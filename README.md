@@ -1334,6 +1334,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 6-12 Hit React Tags
+
+</summary>
+
+> 计算受击方向后，返回不同的标签以说明敌人的方位。
+
+</details>
+
 
 
 
