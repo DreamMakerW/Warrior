@@ -1360,6 +1360,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 6-14 Hit React Sound FX
+
+</summary>
+
+> 添加角色被攻击时的音效。
+
+</details>
+
 
 
 
