@@ -1346,6 +1346,20 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 6-13 Switch On Gameplay Tags
+
+</summary>
+
+> 上一讲的函数返回的是不同的标签，为了根据不同的标签选择不同的montage，首先把montage提升为变量，然后调用Swithc on Gameplay Tag节点，根据不同的标签赋予montage变量不同的值，从而播放不同的动画。
+>
+> 另外有一个问题就是动画效果不太明显，似乎是混合导致的，解决方式是将UpperPose单独存储起来，当角色没有进行移动时，播放该pose。
+
+</details>
+
 
 
 
