@@ -1302,7 +1302,7 @@
 
 </summary>
 
-> 授予角色受击能力，之后就是能力的激活：在GA_Enemy_MeleeAttack_Base中，通过Send Gameplay Event to Actor节点激活受击能力。
+> 授予角色受击能力，之后就是能力的激活：在GA_Enemy_MeleeAttack_Base中，通过Send Gameplay Event to Actor节点激活受击能力（应该是在蓝图Class Defaults的Ability Triggers中进行了对应）。
 
 </details>
 
@@ -1318,6 +1318,22 @@
 > 创建材质实例，当角色被攻击时，在能力蓝图中修改材质的参数，从而显示不一样的颜色。
 
 </details>
+
+
+<details>
+
+<summary>
+    
+### 6-11 Compute Hit React Direction
+
+</summary>
+
+> 计算受击方向：首先取得两个向量——角色的前向向量与角色到敌人的向量，通过点击计算两个向量之间的角度，但结果都是正的，不能分清左右关系；再通过叉积判断左右关系。
+>
+> 注意：虚幻中叉积是符合左手法则的。
+
+</details>
+
 
 
 
