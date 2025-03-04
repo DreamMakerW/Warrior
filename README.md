@@ -1372,6 +1372,20 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 6-15 Hero Block Ability
+
+</summary>
+
+> 增加角色格挡技能。
+>
+> 定义tag -> 处理input action时的回调函数（AWarriorHeroCharacter类中SetupPlayerInputComponent方法进行的绑定，绑定回调函数Input_AbilityInputReleased） -> 创建gameplay ability蓝图并选择好对应的标签 -> 创建input action -> 配置input config -> 因为格挡技能只有在装备武器时才能使用，所以将其指定为武器的ability，在BP_HeroAxe中搜索Weapon Data，添加格挡能力 -> 配置IMC_Axe，将输入与input action进行绑定
+
+</details>
+
 
 
 
