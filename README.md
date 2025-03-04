@@ -1417,6 +1417,19 @@
 </details>
 
 
+<details>
+
+<summary>
+    
+### 6-18 Notify Successful Block
+
+</summary>
+
+> 当格挡有效时，在C++中调用SendGameplayEventToActor函数，并发送Player_Event_SuccessfulBlock标签。在GA_Hero_Block蓝图中，则调用Wait Gameplay Event节点，通过event tag关联事件，从而收到事件通知。
+
+</details>
+
+
 
 
 
