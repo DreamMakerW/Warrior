@@ -19,7 +19,7 @@ void UEnemyCombatComponent::OnHitTargetActor(AActor* HitActor)
 
 	OverlappedActors.Add(HitActor);
 
-	// TODO:: Implement block check
+	// Implement block check
 	bool bIsValidBlock = false;
 
 	// 判断角色是否处于格挡状态
@@ -28,7 +28,7 @@ void UEnemyCombatComponent::OnHitTargetActor(AActor* HitActor)
 
 	if (bIsPlayerBlocking && !bIsMyAttackUnblockable)
 	{
-		// TODO:: check if the block is valid
+		// check if the block is valid
 		bIsValidBlock = UWarriorFunctionLibrary::IsValidBlock(GetOwningPawn(), HitActor);
 	}
 
@@ -39,7 +39,12 @@ void UEnemyCombatComponent::OnHitTargetActor(AActor* HitActor)
 
 	if (bIsValidBlock)
 	{
-		// TODO:: Handle successful block
+		// Handle successful block
+		UAbilitySystemBlueprintLibrary::SendGameplayEventToActor(
+			HitActor,
+			WarriorGameplayTags::Player_Event_SuccessfulBlock,
+			EventData
+		);
 	}
 	else
 	{
