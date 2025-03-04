@@ -1397,10 +1397,22 @@
 > 创建格挡montage，设置为循环播放；GA蓝图中设置播放montage；当被攻击时可以取消格挡能力，所以要配置对应的tag。
 >
 > 调用Add GameplayCueWithParams To Owner节点，创建gameplay cue蓝图（我们希望当ability是激活状态时，gameplay cue也是激活状态，选择以GameplayCueNotify_Actor为父类蓝图），配置Class Defaults。
-> >
-> > 重写While Active方法（当gameplay cue被附件到owner时只会调用一次），播放声音和特效。
-> >
-> > 重写OnRemove方法，销毁component。
+> 
+> - 重写While Active方法（当gameplay cue被附件到owner时只会调用一次），播放声音和特效。
+> 
+> - 重写OnRemove方法，销毁component。
+
+</details>
+
+<details>
+
+<summary>
+    
+### 6-17 Is Valid Block
+
+</summary>
+
+> 本节开始编写格挡判定逻辑，在UEnemyCombatComponent类的OnHitTargetActor方法中，首先需要判断是否是有效的格挡，而判断方法则是通过角色与敌人前向向量的点击进行判断，如果小于-0.1f，则被认为是一次有效的格挡。
 
 </details>
 
