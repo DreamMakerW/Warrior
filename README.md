@@ -1386,6 +1386,24 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 6-16 Add Gameplay Cue To Owner
+
+</summary>
+
+> 创建格挡montage，设置为循环播放；GA蓝图中设置播放montage；当被攻击时可以取消格挡能力，所以要配置对应的tag。
+>
+> 调用Add GameplayCueWithParams To Owner节点，创建gameplay cue蓝图（我们希望当ability是激活状态时，gameplay cue也是激活状态，选择以GameplayCueNotify_Actor为父类蓝图），配置Class Defaults。
+> >
+> > 重写While Active方法（当gameplay cue被附件到owner时只会调用一次），播放声音和特效。
+> >
+> > 重写OnRemove方法，销毁component。
+
+</details>
+
 
 
 
