@@ -1441,6 +1441,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 6-20 Is Perfect Block
+
+</summary>
+
+> 在格挡能力蓝图中，通过时间判断是否为完美格挡。
+
+</details>
+
 
 
 
