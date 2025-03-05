@@ -1429,6 +1429,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 6-19 Handle Successful Block
+
+</summary>
+
+> 本讲主要是写格挡成功后的蓝图逻辑，主要实现了三个功能：朝向敌人，小距离后退，添加特效。
+
+</details>
+
 
 
 
