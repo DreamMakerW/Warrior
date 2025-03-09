@@ -18,8 +18,26 @@ void UWarriorAbilitySystemComponent::OnAbilityInputPressed(const FGameplayTag& I
 	{
 		// AbilitySpec.DynamicAbilityTags.HasTagExact用来检查某个Ability是否带有匹配InInputTag的tag
 		if (!AbilitySpec.DynamicAbilityTags.HasTagExact(InInputTag)) continue;
-		// 如果匹配当前输入操作按键对应的tag，则尝试激活
-		TryActivateAbility(AbilitySpec.Handle);
+
+		if (InInputTag.MatchesTag(WarriorGameplayTags::InputTag_Toggleable))
+		{
+			// 处理类似于锁定目标之类的能力
+			if (AbilitySpec.IsActive())
+			{
+				CancelAbilityHandle(AbilitySpec.Handle);
+			}
+			else
+			{
+				TryActivateAbility(AbilitySpec.Handle);
+
+			}
+		}
+		else
+		{
+			// 处理其他能力
+			// 如果匹配当前输入操作按键对应的tag，则尝试激活
+			TryActivateAbility(AbilitySpec.Handle);
+		}
 	}
 }
 
