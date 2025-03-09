@@ -1471,6 +1471,21 @@
 </details>
 
 
+<details>
+
+<summary>
+    
+### 6-22 Initiate Counterattack
+
+</summary>
+
+> 解决上节课中提到的Bug：在OnEndAbility事件之后，判断一下global time dilation是否为1，如果不是的话重新恢复为1。
+>
+> 实现完美格挡后终结技：设置计时器，如果0.3秒内进行攻击，则切换为处决攻击，本讲只是简单地将处决攻击变为轻/重击的最后一次攻击，然后通过标签判断当前攻击是否为处决攻击，是的话直接跳转到最后一次攻击。
+
+</details>
+
+
 
 
 
