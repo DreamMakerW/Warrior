@@ -1485,6 +1485,28 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 6-23 Set Up Target Lock Ability
+
+</summary>
+
+> 实现Target Lock需要解决的问题：
+>
+> - Toggleable Ability
+> - Get Available Targets
+> - Draw/Update Target Lock Widget
+> - Switch Animation Poses
+> - Switch Target
+>
+> 本节为锁定目标能力的准备工作：
+>
+> 首先创建C++类UHeroGameplayAbility_TargetLock，需要重写ActivateAbility与EndAbility函数（暂时只是调用super）；定义需要的标签；创建蓝图类。
+
+</details>
+
 
 
 
