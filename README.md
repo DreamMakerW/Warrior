@@ -1508,6 +1508,19 @@
 </details>
 
 
+<details>
+
+<summary>
+    
+### 6-24 Toggle Target Lock
+
+</summary>
+
+> 本讲对锁定目标的输入策略进行了设置：首先是UWarriorAbilitySystemComponent类的OnAbilityInputPressed方法中，要对toggleable的能力进行判断，从而控制能力的激活与结束；然后配置DA_InputConfig，创建InputAction，配置IMC_Axe（只有装备武器时才能锁定敌人），再就是在BP_HeroAxe中进行能力的授予。
+
+</details>
+
+
 
 
 
