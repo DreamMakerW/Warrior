@@ -1454,6 +1454,24 @@
 </details>
 
 
+<details>
+
+<summary>
+    
+### 6-21 Notify Perfect Block
+
+</summary>
+
+> 当格挡为完美格挡时，通过Set Global Time Dilation节点增加子弹时间效果；创建GameplayCue，重写OnExecute函数，通过Execute GameplayCueWithParams On Owner节点生成特效。
+>
+> 本节遇到了一个卡了挺久的Bug：当完美格挡时，子弹时间一直没有恢复到正常流速。
+>
+> 原因：UWarriorAbilitySystemComponent的OnAbilityInputReleased函数中，松开按键时，会调用CancelAbilityHandle()，取消技能。在蓝图中，时间流速变慢后，有个delay节点，如果此时松开格挡键位，该技能就被取消掉了，也就是进入了end ability，并没有从delay节点正常执行下去，恢复正常的时间流速。
+
+</details>
+
+
+
 
 
 
