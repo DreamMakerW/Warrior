@@ -1534,6 +1534,21 @@
 </details>
 
 
+<details>
+
+<summary>
+    
+### 6-26 Get Nearest Target
+
+</summary>
+
+> 继续补充TryLockOnTarget的逻辑，如果没有可锁定的目标，需要取消目标锁定的能力（当调用CancelAbility方法后，会执行EndAbility方法）。
+>
+> 通过UGameplayStatics::FindNearestActor方法获取距离角色最近的actor。
+
+</details>
+
+
 
 
 
