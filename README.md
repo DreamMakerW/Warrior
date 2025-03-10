@@ -1549,6 +1549,19 @@
 </details>
 
 
+<details>
+
+<summary>
+    
+### 6-27 Draw Target Lock Widget
+
+</summary>
+
+> 绘制锁定图标：首先创建widget蓝图，之后创建UHeroGameplayAbility_TargetLock::DrawTargetLockWidget函数，CreateWidget创建实例，之后通过AddToViewport进行绘制。
+
+</details>
+
+
 
 
 
