@@ -1576,6 +1576,21 @@
 </details>
 
 
+<details>
+
+<summary>
+    
+### 6-29 Execute Task On Tick
+
+</summary>
+
+> 我们需要解决的问题是：当角色移动时，绘制的widget位置失效，所以我们需要每一帧对widget的位置进行更新，但是gameplay ability并不支持tick函数。
+>
+> 解决方式：自定义ability task，重写TickTask函数，定义委托事件，在ability蓝图中调用ability task。
+
+</details>
+
+
 
 
 
