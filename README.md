@@ -1561,6 +1561,20 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 6-28 Set Target Lock Widget Position
+
+</summary>
+
+> 设置widget的位置：UWidgetLayoutLibrary::ProjectWorldLocationToWidgetPosition可将3维空间的坐标投影到2D空间，再调用SetPositionInViewport将widget绘制到指定位置。
+>
+> 此时会发现widget与正确位置有一些偏差，原因是没有考虑widget本身的大小。DrawnTargetLockWidget->WidgetTree->ForEachWidget的入参传入一个匿名函数，可以获取到widget的宽度和高度。
+
+</details>
+
 
 
 
