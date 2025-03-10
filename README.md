@@ -1521,6 +1521,19 @@
 </details>
 
 
+<details>
+
+<summary>
+    
+### 6-25 Get Available Targets
+
+</summary>
+
+> 在一定范围内获取所有目标，简单讲就是调用UKismetSystemLibrary::BoxTraceMultiForObjects函数，填写相应的参数，将检测到的目标加入到TArray数组中。
+
+</details>
+
+
 
 
 
