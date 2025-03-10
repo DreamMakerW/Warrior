@@ -4,6 +4,7 @@
 #include "AbilitySystem/Abilities/HeroGameplayAbility_TargetLock.h"
 #include "Kismet/KismetSystemLibrary.h"
 #include "Characters/WarriorHeroCharacter.h"
+#include "Kismet/GameplayStatics.h"
 
 #include "WarriorDebugHelper.h"
 
@@ -16,18 +17,39 @@ void UHeroGameplayAbility_TargetLock::ActivateAbility(const FGameplayAbilitySpec
 
 void UHeroGameplayAbility_TargetLock::EndAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilityActivationInfo ActivationInfo, bool bReplicateEndAbility, bool bWasCancelled)
 {
+	// 调用CancelTargetLockAbility()方法后会执行此方法
+	CleanUp();
 	Super::EndAbility(Handle, ActorInfo, ActivationInfo, bReplicateEndAbility, bWasCancelled);
 }
 
 void UHeroGameplayAbility_TargetLock::TryLockOnTarget()
 {
 	GetAvailableActorsToLock();
+
+	// 没有可锁定的目标
+	if (AvailableActorsToLock.IsEmpty())
+	{
+		CancelTargetLockAbility();
+		return;
+	}
+
+	CurrentLockedActor = GetNearestTargetFromAvailableActors(AvailableActorsToLock);
+
+	if (CurrentLockedActor)
+	{
+		Debug::Print(CurrentLockedActor->GetActorNameOrLabel());
+	}
+	else
+	{
+		CancelTargetLockAbility();
+	}
 }
 
 void UHeroGameplayAbility_TargetLock::GetAvailableActorsToLock()
 {
 	TArray<FHitResult> BoxTraceHits;
 
+	// 检测是否有可锁定的目标
 	UKismetSystemLibrary::BoxTraceMultiForObjects(
 		GetHeroCharacterFromActorInfo(),
 		GetHeroCharacterFromActorInfo()->GetActorLocation(),
@@ -42,6 +64,7 @@ void UHeroGameplayAbility_TargetLock::GetAvailableActorsToLock()
 		true
 	);
 
+	// 添加到数组中
 	for (const FHitResult& TraceHit : BoxTraceHits)
 	{
 		if (AActor* HitActor = TraceHit.GetActor())
@@ -49,8 +72,24 @@ void UHeroGameplayAbility_TargetLock::GetAvailableActorsToLock()
 			if (HitActor != GetHeroCharacterFromActorInfo())
 			{
 				AvailableActorsToLock.AddUnique(HitActor);
-				Debug::Print(HitActor->GetActorNameOrLabel());
 			}
 		}
 	}
+}
+
+AActor* UHeroGameplayAbility_TargetLock::GetNearestTargetFromAvailableActors(const TArray<AActor*>& InAvailableActors)
+{
+	float ClosestDistance = 0.f;
+	return UGameplayStatics::FindNearestActor(GetHeroCharacterFromActorInfo()->GetActorLocation(), InAvailableActors, ClosestDistance);
+}
+
+void UHeroGameplayAbility_TargetLock::CancelTargetLockAbility()
+{
+	CancelAbility(GetCurrentAbilitySpecHandle(), GetCurrentActorInfo(), GetCurrentActivationInfo(), true);
+}
+
+void UHeroGameplayAbility_TargetLock::CleanUp()
+{
+	AvailableActorsToLock.Empty();
+	CurrentLockedActor = nullptr;
 }
