@@ -1603,6 +1603,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 6-31 Orient To Target While Target Lock
+
+</summary>
+
+> 继续补充OnTargetLockTick函数，使得锁定目标时，摄像机和角色始终朝向被锁定的敌人。（注意，此处通过设置controller的旋转，从而影响摄像机的旋转）
+
+</details>
+
 
 
 
