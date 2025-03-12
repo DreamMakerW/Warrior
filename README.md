@@ -1627,6 +1627,20 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 6-33 Target Lock Walk Speed
+
+</summary>
+
+> 设置锁定敌人时的最大行走速度。
+>
+> 在混合空间中，混合动画容易抽动，勾选Wrap Input后效果好很多。
+
+</details>
+
 
 
 
