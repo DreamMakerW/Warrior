@@ -1615,6 +1615,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 6-32 Switch To Target Lock Poses
+
+</summary>
+
+> 创建持有武器锁定敌人移动的动画混合空间，并进行应用。
+
+</details>
+
 
 
 
