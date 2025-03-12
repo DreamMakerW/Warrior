@@ -1591,6 +1591,20 @@
 </details>
 
 
+<details>
+
+<summary>
+    
+### 6-30 On Target Lock Tick
+
+</summary>
+
+> 上一讲自定义了以tick形式执行任务的ability task，本讲就是在上一讲的基础上，声明了OnTargetLockTick函数，更新widget的位置，然后以tick的频率执行即可。
+
+</details>
+
+
+
 
 
 
