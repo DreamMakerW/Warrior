@@ -1642,6 +1642,19 @@
 </details>
 
 
+<details>
+
+<summary>
+    
+### 6-34 Switch Target Input Action
+
+</summary>
+
+> 本讲开始实现锁定目标时的切换功能：定义了输入标签，在AWarriorHeroCharacter类中调用BindNativeInputAction进行绑定，创建input action，在input config中进行对应。
+
+</details>
+
+
 
 
 
