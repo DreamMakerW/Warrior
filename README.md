@@ -1668,6 +1668,20 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 6-36 Notify Switch Target
+
+</summary>
+
+> 在AWarriorHeroCharacter::Input_SwitchTargetTriggered方法中获取偏移量，在Input_SwitchTargetCompleted方法中，调用SendGameplayEventToActor函数触发事件。
+>
+> 之后在GA_Hero_TargetLock蓝图中，调用Wait Gameplay Event节点，通过tag监听事件。
+
+</details>
+
 
 
 
