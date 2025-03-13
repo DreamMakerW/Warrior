@@ -1654,6 +1654,19 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 6-35 Target Lock Mapping Context
+
+</summary>
+
+> 在UHeroGameplayAbility_TargetLock中设置一个UInputMappingContext*变量，存储锁定时的mapping context，然后创建函数分别装载和卸载mapping context。
+>
+> 在卸载mapping context之前，对controller是否存在做了一个判断，防止引起崩溃。
+
+</details>
 
 
 
