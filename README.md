@@ -1683,6 +1683,19 @@
 </details>
 
 
+<details>
+
+<summary>
+    
+### 6-37 Handle Switch Target
+
+</summary>
+
+> 主要是逻辑的编写，通过叉积判断位置关系，然后取最近的敌人进行锁定。
+
+</details>
+
+
 
 
 
