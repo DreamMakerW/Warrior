@@ -232,6 +232,7 @@ void UHeroGameplayAbility_TargetLock::ResetTargetLockMappingContext()
 {
 	if (!GetHeroControllerFromActorInfo())
 	{
+		// 当controller不存在时退出，防止引起崩溃问题
 		return;
 	}
 

@@ -62,7 +62,7 @@ private:
 	float TargetLockMaxWalkSpeed = 150.f;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Target Lock")
-		UInputMappingContext* TargetLockMappingContext;
+	UInputMappingContext* TargetLockMappingContext;
 
 	UPROPERTY()
 	TArray<AActor*> AvailableActorsToLock;
