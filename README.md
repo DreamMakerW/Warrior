@@ -1743,5 +1743,21 @@
 
 </details>
 
+<details>
+  
+<summary>
+    
+### 7-3 Glacer Starting Stats
+
+</summary>
+
+> 设置敌人的初始状态：在Curve Table中设置数值，在GE_Guardian_StartUp蓝图类（Gameplay Effect的子类）中配置Curve Table，之后在Data Asset(DA_Glacer)中配置GE_Guardian_StartUp。
+>
+> 其实gameplay effect与ability存储在UDataAsset_StartUpDataBase(Data Asset子类)中，在授予完能力之后，通过ApplyGameplayEffectToSelf方法应用effect。
+>
+> 查看effect是否生效：控制台输入showdebug abilitysystem，按page down键选到敌人即可。
+
+</details>
+
 
 </details>
