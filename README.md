@@ -1696,6 +1696,22 @@
 </details>
 
 
+<details>
+
+<summary>
+    
+### 6-38 Hero Death
+
+</summary>
+
+> 创建GA_Hero_Death能力蓝图，创建montage，在DA_Hero里进行配置，以授予该能力。
+>
+> 为了在character死亡的情况下，停止敌人的攻击，在行为树中，检测一下target actor是否有dead标签。
+
+</details>
+
+
+
 
 
 
