@@ -1771,5 +1771,19 @@
 
 </details>
 
+<details>
+  
+<summary>
+    
+### 7-5 Ranged Behavior Tree
+
+</summary>
+
+> 修复当角色在墙边翻滚时，会移动到原点的问题：当无效命中时，impact point会是一个零向量，需要判断一下是否有效。
+>
+> 给敌人配置AI Controller，在AI Controller中配置行为树。
+
+</details>
+
 
 </details>
