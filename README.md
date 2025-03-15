@@ -1759,5 +1759,17 @@
 
 </details>
 
+<details>
+  
+<summary>
+    
+### 7-4 Glacer Hit React
+
+</summary>
+
+> 设置敌人的血量条、受击时的材质、死亡时的特效（包括武器）等。
+
+</details>
+
 
 </details>
