@@ -1711,6 +1711,20 @@
 </details>
 
 
+<details>
+
+<summary>
+    
+### 6-39 Tweaking Target Lock
+
+</summary>
+
+> 调整了一下锁定目标时摄像机的位置。
+
+</details>
+
+
+
 
 
 
