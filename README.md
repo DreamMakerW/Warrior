@@ -1724,10 +1724,24 @@
 </details>
 
 
+</details>
 
+## Ranged Enemy
 
+<details>
+  <summary>Lesson list</summary>
+  
+<details>
+  
+<summary>
+    
+### 7-2 Ranged Enemy Starting Weapon
 
+</summary>
 
+> 创建新类型的敌人，需要指定mesh，animation等。同时为了使敌人在生成时手里带着武器，需要复制能力蓝图，并配置Data Asset授予能力。
+
+</details>
 
 
 </details>
