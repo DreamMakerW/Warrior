@@ -1849,4 +1849,16 @@
 
 </details>
 
+<details>
+  
+<summary>
+    
+### 7-10 On Projectile Hit
+
+</summary>
+
+> 在投射物的C++代码中，通过AddUniqueDynamic绑定委托函数，从而在发生碰撞时进行调用，响应碰撞事件。
+
+</details>
+
 </details>
