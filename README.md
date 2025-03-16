@@ -1911,4 +1911,18 @@
 
 </details>
 
+<details>
+  
+<summary>
+    
+### 7-15 Glacer Melee Ability
+
+</summary>
+
+> 制作武器拖尾效果。（其实就是添加notify state，在socket处添加粒子特效）
+>
+> 添加Glacer的近战能力，在DA_Glacer中授予，在行为树中通过task激活近战能力。
+
+</details>
+
 </details>
