@@ -1811,7 +1811,19 @@
 > 
 > 黑板主要是存储AI共享的数据，通过黑板键在节点之间传递数据。
 
-</details>，
+</details>
+
+<details>
+  
+<summary>
+    
+### 7-7 Project Ability
+
+</summary>
+
+> 创建能力蓝图、montage，配置DA_Glacer等，修改行为树逻辑，使得敌人向character发起攻击。
+
+</details>
 
 
 </details>
