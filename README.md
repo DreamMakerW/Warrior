@@ -1887,4 +1887,16 @@
 
 </details>
 
+<details>
+  
+<summary>
+    
+### 7-13 Make Projectile Spec Handle
+
+</summary>
+
+> 上一讲中，我们通过meta = (ExposeOnSpawn = "true")将ProjectileDamageEffectSpecHandle属性暴露在对象的生成（Spawn）参数列表中，以便在蓝图中创建该对象时，动态传入该属性的初始值，本讲通过UWarriorEnemyGameplayAbility::MakeEnemyDamageEffectSpecHandle节点创建EffectSpecHandle，以携带伤害值等信息。
+
+</details>
+
 </details>
