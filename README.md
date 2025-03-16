@@ -1875,4 +1875,16 @@
 
 </details>
 
+<details>
+  
+<summary>
+    
+### 7-12 Projectile Spec Handle
+
+</summary>
+
+> 创建HandleApplyProjectileDamage函数，以编写应用投射物伤害的游戏逻辑：在UWarriorFunctionLibrary类中创建了ApplyGameplayEffectSpecHandleToTargetActor函数，将指定的GameplayEffect应用到目标Actor，并返回是否成功应用。若成功应用，在HandleApplyProjectileDamage函数中触发受击反馈事件。
+
+</details>
+
 </details>
