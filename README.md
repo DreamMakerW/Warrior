@@ -1899,4 +1899,16 @@
 
 </details>
 
+<details>
+  
+<summary>
+    
+### 7-14 Projectile Sound FX
+
+</summary>
+
+> 添加音效和粒子特效。
+
+</details>
+
 </details>
