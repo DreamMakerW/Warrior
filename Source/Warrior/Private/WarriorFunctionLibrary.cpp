@@ -135,8 +135,10 @@ bool UWarriorFunctionLibrary::IsValidBlock(AActor* InAttacker, AActor* InDefende
     return DotResult < -0.1f;
 }
 
+/* 将指定的GameplayEffect应用到目标Actor，并返回是否成功应用 */
 bool UWarriorFunctionLibrary::ApplyGameplayEffectSpecHandleToTargetActor(AActor* InInstigator, AActor* InTargetActor, const FGameplayEffectSpecHandle& InSpecHandle)
 {
+    // InSpecHandle是GameplayEffect的规格句柄，包含效果的具体配置（如伤害值）
     UWarriorAbilitySystemComponent* SourceASC = NativeGetWarriorASCFromActor(InInstigator);
     UWarriorAbilitySystemComponent* TargetASC = NativeGetWarriorASCFromActor(InTargetActor);
 

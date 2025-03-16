@@ -108,6 +108,7 @@ void AWarriorProjectileBase::HandleApplyProjectileDamage(APawn* InHitPawn, const
 	
 	if (bWasApplied)
 	{
+		// 如果应用了伤害效果，触发受击反馈事件
 		UAbilitySystemBlueprintLibrary::SendGameplayEventToActor(
 			InHitPawn,
 			WarriorGameplayTags::Shared_Event_HitReact,
