@@ -1825,5 +1825,17 @@
 
 </details>
 
+<details>
+  
+<summary>
+    
+### 7-8 Projectile Class
+
+</summary>
+
+> 创建Projectile类，添加相应的组件，并进行初始化。
+
+</details>
+
 
 </details>
