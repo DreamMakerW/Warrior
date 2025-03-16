@@ -1837,5 +1837,16 @@
 
 </details>
 
+<details>
+  
+<summary>
+    
+### 7-9 Spawning Projectile
+
+</summary>
+
+> 生成投射物，当然是需要根据敌人的动作进行生成的，所以在montage中添加notify(AN_SendGameplayEventToOwner)，在能力蓝图中调用Wait Gameplay Event节点进行监听，从而生成投射物。
+
+</details>
 
 </details>
