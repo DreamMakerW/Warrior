@@ -1861,4 +1861,18 @@
 
 </details>
 
+<details>
+  
+<summary>
+    
+### 7-11 Handle Projectile Hit
+
+</summary>
+
+> 在OnProjectileHit函数中处理碰撞逻辑，需要判断角色是否格挡成功，如果成功的话，调用SendGameplayEventToActor方法发送事件；否则进行伤害处理（后面进行实现）。
+>
+> 在头文件中声明BP_OnSpawnProjectileHitFX函数，在BP_Projectile_Base蓝图中重写该函数，生成声音和粒子特效，在BP_Projectile_Glacer中赋予具体的资源。
+
+</details>
+
 </details>
