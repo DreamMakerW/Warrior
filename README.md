@@ -1940,3 +1940,23 @@
 </details>
 
 </details>
+
+## Boss Enemy
+
+<details>
+  
+  <summary>Lesson list</summary>
+
+<details>
+
+<summary>
+    
+### 8-2 Set Up Boss Character
+
+</summary>
+
+> 设置boss蓝图以及用到的动画蓝图、混合空间等。
+
+</details>
+
+</details>
