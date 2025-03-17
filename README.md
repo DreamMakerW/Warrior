@@ -1925,4 +1925,18 @@
 
 </details>
 
+<details>
+  
+<summary>
+    
+### 7-16 Unblockable Attack
+
+</summary>
+
+> 设置Glacer的近战攻击为不可阻挡的，通过gameplay cue播放不可阻挡的特效提示。
+>
+> 之所以没有使用AnimNotifyState的方式，个人理解是gameplay cue通过gameplay tag进行触发，播放特效需要访问一些位置、旋转等数据，而AnimNotifyState只能访问蓝图动画中的变量。
+
+</details>
+
 </details>
