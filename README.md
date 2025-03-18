@@ -2028,4 +2028,15 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-8 Remove Boss Bar
+</summary>
+
+> 敌人死亡时，删除UI内容：在UEnemyUIComponent类中声明两个函数，RegisterEnemyDrawnWidget和RemoveEnemyDrawnWidgetsIfAny，在绘制血条的能力蓝图中注册组件，在boss角色蓝图的死亡事件中对UI组件进行删除。
+
+</details>
+
 </details>
