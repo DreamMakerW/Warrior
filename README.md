@@ -2003,4 +2003,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-6 Giant Hit React
+
+</summary>
+
+> 赋予boss受击能力。
+>
+> 生成材质实例以调整受击时显示的材质，调整完后分配给skeletal mesh，boss蓝图中的材质会相应更新。
+
+</details>
+
 </details>
