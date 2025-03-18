@@ -2017,4 +2017,15 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-7 Giant Death
+</summary>
+
+> 给boss增加死亡能力，通过gameplay cue播放音效，并且播放粒子特效。
+
+</details>
+
 </details>
