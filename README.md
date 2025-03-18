@@ -1991,4 +1991,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-5 Draw Boss Bar To Screen
+
+</summary>
+
+> 通过能力蓝图绘制boss的血量条。
+
+</details>
+
 </details>
