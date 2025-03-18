@@ -1959,4 +1959,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-3 Giant Starting Stats
+
+</summary>
+
+> 配置Boss的Gameplay Effect，Data Asset等文件。
+
+</details>
+
 </details>
