@@ -2050,4 +2050,15 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-10 Giant Melee Abilitye
+</summary>
+
+> 给boss添加近战功能，另外为了使得boss攻击时面向character，在montage中采用了motion warping的方式。 修改行为树，简单测试近战功能。
+
+</details>
+
 </details>
