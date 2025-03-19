@@ -2055,9 +2055,22 @@
 <summary>
     
 ### 8-10 Giant Melee Abilitye
+
 </summary>
 
 > 给boss添加近战功能，另外为了使得boss攻击时面向character，在montage中采用了motion warping的方式。 修改行为树，简单测试近战功能。
+
+</details>
+
+<details>
+
+<summary>
+    
+### 8-11 Hand Collision Box
+
+</summary>
+
+> 给boss添加了近战功能后却没有伤害，是因为之前都是用武器进行攻击，而boss用手进行攻击。本节主要在AWarriorEnemyCharacter类中创建LeftHandCollisionBox和RightHandCollisionBox，进行初始化，并绑定委托函数。
 
 </details>
 
