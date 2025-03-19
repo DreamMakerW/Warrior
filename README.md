@@ -2074,4 +2074,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-12 Post Edit Change Property
+
+</summary>
+
+> 上一讲生成了LeftHandCollisionBox和RightHandCollisionBox，但是SetupAttachment的时候遇到了问题：每个角色的骨骼名称不一样，怎么确定绑定到哪个骨骼上呢？
+>
+> 解决方案：声明一个FName变量，设置为EditDefaultsOnly，存储骨骼名称，然后重写PostEditChangeProperty函数，当属性变化时，也就是在蓝图中赋予当前角色的骨骼名称时，会调用该函数，此时进行绑定即可。
+
+</details>
+
 </details>
