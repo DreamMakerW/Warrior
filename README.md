@@ -2088,4 +2088,22 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-13 Toggle Box Collision
+
+</summary>
+
+> 总结一下敌人攻击触发的流程（以LeftHandCollisionBox为例）：
+> > - 在montage中添加了ANS_ToggleWeaponCollision，会调用UPawnCombatComponent::ToggleWeaponCollision函数。
+> > - ToggleWeaponCollision函数触发UEnemyCombatComponent::ToggleBodyCollisionBoxCollision，启用碰撞。
+> > - 在进行初始化的时候，LeftHandCollisionBox是没有碰撞的，但是绑定了委托函数OnBodyCollisionBoxBeginOverlap。
+> > - OnBodyCollisionBoxBeginOverlap函数会判断hitpawn是否为敌对的，如果是的话调用EnemyCombatComponent->OnHitTargetActor。
+> > - OnHitTargetActor对格挡逻辑进行了判断，如果hero没有格挡/格挡无效，调用SendGameplayEventToActor，触发tag相关的gameplay event。
+> > - GA_Enemy_MeleeAttack_Base蓝图中wait gameplay event监听到相关事件，触发handle apply damage节点，从而继续后面的伤害流程。
+
+</details>
+
 </details>
