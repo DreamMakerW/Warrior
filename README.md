@@ -2185,4 +2185,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-19 Async Load And Spawn Enemies
+
+</summary>
+
+> 召唤敌人第二部——异步加载，使用UAssetManager进行异步加载，绑定了另外的回调函数OnEnemyClassLoaded，此函数中生成敌人。
+
+</details>
+
 </details>
