@@ -2122,4 +2122,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-15 Giant Combo
+
+</summary>
+
+> 添加连招：其实就是配置一堆的notify与notifystate。
+>
+> 通过socket控制粒子特效生成的位置。
+
+</details>
+
 </details>
