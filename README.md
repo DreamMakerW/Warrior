@@ -2106,4 +2106,20 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-14 Giant Second Melee Ability
+
+</summary>
+
+> 添加第二种近战攻击。
+>
+> 将第一种近战攻击设置为不可阻挡。
+>
+> 不可阻挡提示offset优化。
+
+</details>
+
 </details>
