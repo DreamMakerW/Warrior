@@ -2164,4 +2164,25 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-18 Listen For Gameplay Event
+
+</summary>
+
+> 下面要生成enemies，分为三步：
+> - Listen for Gameplay Event
+> - Async Load
+> - Spawn Enemies
+>
+> 本节主要是讲监听事件，在UAbilityTask_WaitSpawnEnemies类中重写Activate和OnDestroy函数，在Activate中绑定回调函数。
+>
+> Montage中添加AN_SendGameplayEventToOwner，发送对应的tag。
+>
+> tag匹配后，触发绑定的回调函数。
+
+</details>
+
 </details>
