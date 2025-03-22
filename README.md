@@ -2136,4 +2136,20 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-16 Wait Spawn Enemies
+
+</summary>
+
+> 本节开始给boss添加召唤的能力，增加了UAbilityTask_WaitSpawnEnemies这样一个ability task。
+>
+> 介绍一下ability task：
+>  - 默认情况下ability是同步执行的，也就是说当gameplay ability的activate函数被调用时，如果没有使用ability task或者手动分帧逻辑（Timer, AsyncTask等），所有代码都会在同一帧内完成。
+>  - Ability task的作用是“跨帧”，核心理念是将异步操作封装为任务，允许ability逻辑暂停等待某些条件，并在后续帧中继续执行。
+
+</details>
+
 </details>
