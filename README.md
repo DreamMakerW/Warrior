@@ -2295,4 +2295,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-5 Rage Anim Montage
+
+</summary>
+
+> 在使用rage技能时，给技能添加activating标签，并配置其他能力蓝图的Activation Blocked Tags，以防止rage被其他技能打断；montage播放完毕以后要移除该标签。
+>
+> 创建rage技能的montage。
+
+</details>
+
 </details>
