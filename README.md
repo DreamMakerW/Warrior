@@ -2235,4 +2235,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-23 Enemy Entry Montage
+
+</summary>
+
+> 在BP_EnemyCharacter_Base的BeginPlay事件中，设置一个montage数组变量，让子类填充montage并播放。
+>
+> 添加grunting和boss的入场montage。
+
+</details>
+
 </details>
