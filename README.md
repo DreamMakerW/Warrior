@@ -2249,4 +2249,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-24 Check Current Health Percent
+
+</summary>
+
+> 创建一个新的装饰器节点，当boss血量低于某个值的时候，使用召唤技能。同时在编辑器中创建了枚举。
+>
+> 击败召唤出来的grunting后，会发现有个小问题，就是boss的朝向不太对。（没太明白这个问题的原因和解决方式，留待以后解决吧）
+
+</details>
+
 </details>
