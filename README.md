@@ -2309,4 +2309,22 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-6 Rage Gameplay Cue
+
+</summary>
+
+> 设置了一下敌人武器材质中的参数，使其出现更丝滑。
+>
+> Rage Gameplay Cue流程：
+> - 在montage中添加notify，发送事件，在GA_Hero_Rage中使用wait gameplay event进行监听，监听到事件后则添加gameplay cue，设置tag。
+> - 创建新的gameplay cue，配置tag以进行匹配。
+>   - 重写While Active函数，播放粒子特效和声音。
+>   - 重写On Remove函数，移除粒子特效。 
+
+</details>
+
 </details>
