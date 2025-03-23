@@ -2209,4 +2209,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-21 Stop Spawning Enemies
+
+</summary>
+
+> 停止生成敌人：在黑板中添加一个bool变量，当生成敌人后，进行设置，并在行为树的节点中添加装饰器以判断是否可以使用召唤技能。
+
+</details>
+
 </details>
