@@ -2197,4 +2197,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-20 Fix Facing Rotation
+
+</summary>
+
+> 修复使用召唤技能时，boss和grunting的朝向问题。
+
+</details>
+
 </details>
