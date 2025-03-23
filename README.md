@@ -2264,3 +2264,23 @@
 </details>
 
 </details>
+
+## Hero Special Abilities
+
+<details>
+  
+  <summary>Lesson list</summary>
+
+<details>
+
+<summary>
+    
+### 9-3 Rage Ability Tags
+
+</summary>
+
+> 定义愤怒能力需要用到的input tag, ability tag, status tag。
+
+</details>
+
+</details>
