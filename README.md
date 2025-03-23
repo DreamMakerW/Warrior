@@ -2283,4 +2283,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-4 Rage Ability Blueprint
+
+</summary>
+
+> 增加Rage能力，配置输入操作。
+
+</details>
+
 </details>
