@@ -2221,4 +2221,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 8-22 Enemy Entry FX
+
+</summary>
+
+> 在项目第一次启动时，因为数据加载问题，会导致一些不正确的情况发生：比如敌人生成的瞬间手里没有武器，显示不正确的health bar。
+>
+> 通过设置widget的可见性解决health bar问题，在BP_EnemyCharacter_Base的begin play事件中，使用特效。
+
+</details>
+
 </details>
