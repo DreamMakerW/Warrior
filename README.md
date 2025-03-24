@@ -2383,4 +2383,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-11 On Rage Slash Begin Overlap
+
+</summary>
+
+> 我们不想让slash碰到敌人后立即消失，而是可以穿透攻击多个敌人：修改ProjectileDamagePolicy属性（这是我们在AWarriorProjectileBase中定义的枚举）为OnBeginOverlap，此时发现slash不会碰撞后就消失，但也无法造成伤害，此时需要我们完善AWarriorProjectileBase类中的回调函数OnProjectileBeginOverlap，补充伤害逻辑。
+
+</details>
+
 </details>
