@@ -2337,7 +2337,20 @@
 
 > UWarriorAttributeSet中修改PostGameplayEffectExecute函数，根据rage数值添加/移除标签。修改蓝图，配置Activation Required Tags = "Player.Status.Rage.Full"；当检测到Player_Status_Rage_None标签时，取消能力。
 >
-> 实现无敌功能：打开GE_Shared_DealDamage，在Gameplay Effect处添加新的元素，Target Tag Reqs选择Target Tag Requirements Gameplay Effect Component，Must Not Have Tags配置Shared.Status.Invincible。（有点忘记这个文件的作用了，从名字上看是处理伤害的，后续再梳理一下）
+> 实现无敌功能：打开GE_Shared_DealDamage，在Gameplay Effect处添加新的元素，Target Tag Reqs选择Target Tag Requirements Gameplay Effect Component，Must Not Have Tags配置Shared.Status.Invincible。
+> > Gameplay Effect就我目前的理解来讲，就是对attribute进行修改时需要用到的类。我们在此类中配置如何影响属性，之后在其他地方（比如能力蓝图）应用gameplay effect，从而达到修改属性的作用。
+
+</details>
+
+<details>
+
+<summary>
+    
+### 9-8 Consume Rage
+
+</summary>
+
+> 本节实现愤怒技能开启时，持续消耗rage量的功能：首先创建一个gameplay effect，配置好对应内容，之后在能力蓝图中进行应用/移除即可实现该功能。
 
 </details>
 
