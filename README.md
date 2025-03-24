@@ -2327,4 +2327,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-7 Activation Condition
+
+</summary>
+
+> UWarriorAttributeSet中修改PostGameplayEffectExecute函数，根据rage数值添加/移除标签。修改蓝图，配置Activation Required Tags = "Player.Status.Rage.Full"；当检测到Player_Status_Rage_None标签时，取消能力。
+>
+> 实现无敌功能：打开GE_Shared_DealDamage，在Gameplay Effect处添加新的元素，Target Tag Reqs选择Target Tag Requirements Gameplay Effect Component，Must Not Have Tags配置Shared.Status.Invincible。（有点忘记这个文件的作用了，从名字上看是处理伤害的，后续再梳理一下）
+
+</details>
+
 </details>
