@@ -2354,4 +2354,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-9 Set Up Rage Slash
+
+</summary>
+
+> 愤怒技能开启后，对攻击进行强化，本课选用的方式是生成一个投射物：创建蓝图，添加粒子特效及音效。
+
+</details>
+
 </details>
