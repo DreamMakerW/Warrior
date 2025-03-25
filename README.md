@@ -2419,4 +2419,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-14 Special Weapon Ability Tags
+
+</summary>
+
+> 本节开始增加特殊武器技能：首先是声明和定义tags，然后创建能力蓝图，并配置相应tag，之后是输入绑定，此次不一样的地方在于，特殊武器能力需要多个键位联动触发，比如alt + 鼠标左键，因此需要创建一个input action作为trigger，并在mapping context中进行设置。
+
+</details>
+
 </details>
