@@ -2407,4 +2407,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-13 Gain Rage
+
+</summary>
+
+> 通过攻击增加rage：首先创建一个gameplay effect，之后在近战能力蓝图（比如GA_Hero_LightAttackMaster）中，在攻击成功时调用一下apply gameplay effect to owner节点。
+
+</details>
+
 </details>
