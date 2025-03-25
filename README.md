@@ -2431,4 +2431,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-15 Grant Special Weapon Ability
+
+</summary>
+
+> 在WarriorStructTypes中创建FWarriorHeroSpecialAbilitySet，并在FWarriorHeroWeaponData中添加武器特殊能力数组，并在UWarriorAbilitySystemComponent::GrantHeroWeaponAbilities能进行能力的授予（该函数在GA_Hero_EquipAxe蓝图中被调用）。
+
+</details>
+
 </details>
