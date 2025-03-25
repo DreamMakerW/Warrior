@@ -2395,4 +2395,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-12 Rage Slash For All Attacks
+
+</summary>
+
+> 给剩余的轻攻击和重攻击增加rage slash功能。
+
+</details>
+
 </details>
