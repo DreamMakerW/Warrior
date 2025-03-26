@@ -2467,4 +2467,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-18 Cooldown Gameplay Effect
+
+</summary>
+
+> 在能力蓝图details面板的最下方有cooldown的设置，需要创建一个cooldown的gameplay effect，配置相关内容，应用到能力蓝图上。
+
+</details>
+
 </details>
