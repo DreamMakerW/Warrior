@@ -2455,4 +2455,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-17 Light Ability Damage
+
+</summary>
+
+> 添加伤害处理流程。（自行实现的！）
+
+</details>
+
 </details>
