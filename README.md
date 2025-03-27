@@ -2491,4 +2491,20 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-20 On Ability Icon Updated
+
+</summary>
+
+> UHeroUIComponent创建新的委托类型，更新特殊技能的图标。
+>
+> 在BP_HeroAxe蓝图中遍历特殊技能，进行广播。
+>
+> 创建图标实例。
+
+</details>
+
 </details>
