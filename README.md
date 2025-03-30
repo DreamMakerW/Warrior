@@ -2507,4 +2507,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-21 Listen For Ability Icon Change
+
+</summary>
+
+> 我们在UHeroUIComponent中声明了委托类型OnAbilityIconSlotUpdated，之后在TPWBP_AbilityIconSlot蓝图中，调用Bind Event to On Ability Icon Slot Updated，顾名思义也就是给委托变量绑定事件，通过事件实现当角色装备武器时，显示轻攻击特殊技能的icon逻辑。那么什么时候委托函数会执行呢？GA_Hero_EquipAxe蓝图中调用节点Call On Ability Icon Slot Updated。
+> 
+> 卸下装备时，icon消失的逻辑也是同理。
+
+</details>
+
 </details>
