@@ -2521,4 +2521,14 @@
 
 </details>
 
+<summary>
+    
+### 9-22 Notify Ability Cooldown
+
+</summary>
+
+> 在UHeroUIComponent中声明新的委托类型FOnAbilityCooldownBeginDelegate，之后能力蓝图中调用Call On Ability Cooldown Begin，再就是在TPWBP_AbilityIconSlot蓝图中绑定事件，显示冷却时间。（整体实现逻辑与上一讲差不多）
+
+</details>
+
 </details>
