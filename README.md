@@ -2543,4 +2543,24 @@
 
 </details>
 
+<summary>
+    
+### 9-24 Count Down Action Class
+
+</summary>
+
+> 本节在上一讲的基础上，创建Native Class——FWarriorCountDownAction以构建Latent Action。
+
+</details>
+
+<summary>
+    
+### 9-25 Construct Count Down Action
+
+</summary>
+
+> 编写UWarriorFunctionLibrary::CountDown逻辑，在LatentActionManager中检索/创建/取消FWarriorCountDownAction。
+
+</details>
+
 </details>
