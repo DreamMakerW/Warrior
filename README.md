@@ -2531,4 +2531,16 @@
 
 </details>
 
+<summary>
+    
+### 9-23 Custom Latent Action
+
+</summary>
+
+> 下一步需要实现实时更新冷却时间的功能，可以通过event tick实现，但是据说计算逻辑会比较复杂。于是打算通过自定义latent action的方式解决问题。（delay节点时机上也是建立在latent action的基础上的，顺便也解开了我的疑惑，原来右上角时钟的图标表示是latent action）
+>
+> 本节主要讲解UWarriorFunctionLibrary类中如何将CountDown函数声明为Latent Action。
+
+</details>
+
 </details>
