@@ -2563,4 +2563,14 @@
 
 </details>
 
+<summary>
+    
+### 9-26 Count Down Logic
+
+</summary>
+
+> 在FWarriorCountDownAction类中，重写父类FPendingLatentAction中的UpdateOperation函数，该函数每次tick都会调用，通过重写该函数实现倒计时逻辑。
+
+</details>
+
 </details>

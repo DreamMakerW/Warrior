@@ -10,10 +10,13 @@ class FWarriorCountDownAction : public FPendingLatentAction
 {
 public:
 	FWarriorCountDownAction(float InTotalCountDownTime, float InUpdateInterval, float& InOutRemainingTime, EWarriorCountDownActionOutput& InCountDownOutput, const FLatentActionInfo& LatentInfo)
-		: bNeedToCancel(false), TotalCountDownTime(InTotalCountDownTime), OutRemainingTime(InOutRemainingTime),
+		: bNeedToCancel(false), TotalCountDownTime(InTotalCountDownTime), UpdateInterval(InUpdateInterval), OutRemainingTime(InOutRemainingTime),
 			CountDownOutput(InCountDownOutput), ExecutionFunction(LatentInfo.ExecutionFunction), OutputLink(LatentInfo.Linkage),
 				CallbackTarget(LatentInfo.CallbackTarget), ElapsedInterval(0.f), ElapsedTimeSinceStart(0.f)
 	{}
+
+	// 每次tick都会调用该函数，重写该函数以实现自己的功能
+	virtual void UpdateOperation(FLatentResponse& Response) override;
 
 	void CancelAction();
 
