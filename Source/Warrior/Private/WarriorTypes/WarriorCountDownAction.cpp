@@ -2,6 +2,7 @@
 
 
 #include "WarriorTypes/WarriorCountDownAction.h"
+#include "WarriorDebugHelper.h"
 
 void FWarriorCountDownAction::UpdateOperation(FLatentResponse& Response)
 {
@@ -30,12 +31,15 @@ void FWarriorCountDownAction::UpdateOperation(FLatentResponse& Response)
 	{
 		// 更新累计时间，如果UpdateInterval > 0，按固定间隔累加；否则直接使用帧时间
 		ElapsedTimeSinceStart += UpdateInterval > 0.f ? UpdateInterval : Response.ElapsedTime();
+		// Debug::Print(TEXT("ElapsedTimeSinceStart: "), ElapsedTimeSinceStart);
 		OutRemainingTime = TotalCountDownTime - ElapsedTimeSinceStart;
 		CountDownOutput = EWarriorCountDownActionOutput::Updated;
 		Response.TriggerLink(ExecutionFunction, OutputLink, CallbackTarget);
 		// 重置间隔计时
 		ElapsedInterval = 0.f;
 	}
+
+
 }
 
 void FWarriorCountDownAction::CancelAction()

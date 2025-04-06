@@ -2573,4 +2573,24 @@
 
 </details>
 
+<summary>
+    
+### 9-27 Update Cooldown
+
+</summary>
+
+> 在相关widget蓝图中，调用我们定义的count down节点，从而实现更新冷却时间及材质的功能。
+
+</details>
+
+<summary>
+    
+### 9-28 Resume Cooldown
+
+</summary>
+
+> 在UWarriorHeroGameplayAbility类中创建函数GetAbilityRemainingCooldownByTag，创建FGameplayEffectQuery，并通过GetAbilitySystemComponentFromActorInfo()->GetActiveEffectsTimeRemainingAndDuration()取得剩余的时间。在GA_Hero_EquipAxe中编写该节点相关逻辑，并调用委托事件，触发TPWBP_AbilityIconSlot中的OnAbilityCooldownBegin事件，使得再次装备武器时显示技能剩余冷却时间。
+
+</details>
+
 </details>

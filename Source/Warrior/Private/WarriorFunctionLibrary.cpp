@@ -163,7 +163,14 @@ void UWarriorFunctionLibrary::CountDown(const UObject* WorldContextObject, float
     }
 
     FLatentActionManager& LatentActionManager = World->GetLatentActionManager();
+  
+    //  TODO: 没能找到之前创建的action，导致countdownaciton创建两次
+    // Debug::Print(TEXT("UUID: "), LatentInfo.UUID);
+    // UE_LOG(LogTemp, Warning, TEXT("CallbackTarget Address: %p"), LatentInfo.CallbackTarget);
+
+
     FWarriorCountDownAction* FoundAction = LatentActionManager.FindExistingAction<FWarriorCountDownAction>(LatentInfo.CallbackTarget, LatentInfo.UUID);
+
 
     if (CountDownInput == EWarriorCountDownActionInput::Start)
     {
@@ -174,6 +181,8 @@ void UWarriorFunctionLibrary::CountDown(const UObject* WorldContextObject, float
                 LatentInfo.UUID,
                 new FWarriorCountDownAction(TotalTime, UpdateInterval, OutRemaingTime, CountDownOutput, LatentInfo)
             );
+
+            
         }
     }
 
