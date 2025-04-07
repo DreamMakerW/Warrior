@@ -2593,4 +2593,14 @@
 
 </details>
 
+<summary>
+    
+### 9-29 Heavy Ability
+
+</summary>
+
+> 添加重攻击的特殊技能，配置输入操作，授予技能，并设置技能图标材质。
+
+</details>
+
 </details>
