@@ -2613,4 +2613,14 @@
 
 </details>
 
+<summary>
+    
+### 9-31 Heavy Ability Damage
+
+</summary>
+
+> 本讲开始讲解AOE伤害的实现逻辑，首先定义AOE相关标签，然后在UWarriorGameplayAbility类中定义ApplyGameplayEffectSpecHandleToHitResults方法，遍历每一个检测到的结果，如果是敌对的pawn，则调用SendGameplayEventToActor函数，给pawn发送受击事件通知。
+
+</details>
+
 </details>
