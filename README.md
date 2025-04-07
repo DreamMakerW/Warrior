@@ -2521,6 +2521,8 @@
 
 </details>
 
+<details>
+
 <summary>
     
 ### 9-22 Notify Ability Cooldown
@@ -2530,6 +2532,8 @@
 > 在UHeroUIComponent中声明新的委托类型FOnAbilityCooldownBeginDelegate，之后能力蓝图中调用Call On Ability Cooldown Begin，再就是在TPWBP_AbilityIconSlot蓝图中绑定事件，显示冷却时间。（整体实现逻辑与上一讲差不多）
 
 </details>
+
+<details>
 
 <summary>
     
@@ -2543,6 +2547,8 @@
 
 </details>
 
+<details>
+
 <summary>
     
 ### 9-24 Count Down Action Class
@@ -2552,6 +2558,8 @@
 > 本节在上一讲的基础上，创建Native Class——FWarriorCountDownAction以构建Latent Action。
 
 </details>
+
+<details>
 
 <summary>
     
@@ -2563,6 +2571,8 @@
 
 </details>
 
+<details>
+
 <summary>
     
 ### 9-26 Count Down Logic
@@ -2572,6 +2582,8 @@
 > 在FWarriorCountDownAction类中，重写父类FPendingLatentAction中的UpdateOperation函数，该函数每次tick都会调用，通过重写该函数实现倒计时逻辑。
 
 </details>
+
+<details>
 
 <summary>
     
@@ -2583,6 +2595,8 @@
 
 </details>
 
+<details>
+
 <summary>
     
 ### 9-28 Resume Cooldown
@@ -2592,6 +2606,8 @@
 > 在UWarriorHeroGameplayAbility类中创建函数GetAbilityRemainingCooldownByTag，创建FGameplayEffectQuery，并通过GetAbilitySystemComponentFromActorInfo()->GetActiveEffectsTimeRemainingAndDuration()取得剩余的时间。在GA_Hero_EquipAxe中编写该节点相关逻辑，并调用委托事件，触发TPWBP_AbilityIconSlot中的OnAbilityCooldownBegin事件，使得再次装备武器时显示技能剩余冷却时间。
 
 </details>
+
+<details>
 
 <summary>
     
@@ -2603,6 +2619,8 @@
 
 </details>
 
+<details>
+
 <summary>
     
 ### 9-30 Heavy Ability Montage
@@ -2613,6 +2631,8 @@
 
 </details>
 
+<details>
+
 <summary>
     
 ### 9-31 Heavy Ability Damage
@@ -2620,6 +2640,32 @@
 </summary>
 
 > 本讲开始讲解AOE伤害的实现逻辑，首先定义AOE相关标签，然后在UWarriorGameplayAbility类中定义ApplyGameplayEffectSpecHandleToHitResults方法，遍历每一个检测到的结果，如果是敌对的pawn，则调用SendGameplayEventToActor函数，给pawn发送受击事件通知。
+
+</details>
+
+<details>
+
+<summary>
+    
+### 9-31 Heavy Ability Damage
+
+</summary>
+
+> 本讲开始讲解AOE伤害的实现逻辑，首先定义AOE相关标签，然后在UWarriorGameplayAbility类中定义ApplyGameplayEffectSpecHandleToHitResults方法，遍历每一个检测到的结果，如果是敌对的pawn，则调用SendGameplayEventToActor函数，给pawn发送受击事件通知。
+
+</details>
+
+<details>
+
+<summary>
+    
+### 9-32 Apply AOE Damage
+
+</summary>
+
+> Bug Fixed: UDataAsset_HeroStartUpData类中FGameplayAbilitySpec AbilitySpec(AbilitySet.AbilityToGrant)这句代码编译的时候总是报错error C2665，应该是没有包含正确头文件导致的，所以添加了AbilitySystem/Abilities/WarriorHeroGameplayAbility.h头文件。
+>
+> 在montage中发送事件通知，能力蓝图中接收该通知，并在该通知以后通过box进行检测，对检测到的结果调用ApplyGameplayEffectSpecHandleToHitResults方法，对敌人造成【范围】伤害
 
 </details>
 
