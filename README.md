@@ -2755,4 +2755,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-40 Consume Stones
+
+</summary>
+
+> 接收到事件通知以后，调用ConsumeStones函数，遍历检测到的stone，调用AWarriorStoneBase::Consume方法，通过该方法施加gameplay effect。另外想要添加音效等逻辑，在AWarriorStoneBase类中定义BP_OnStoneConsumed方法，标记为BlueprintImplementableEvent，在蓝图中实现，并且在Consume方法中进行调用。
+
+</details>
+
 </details>
