@@ -2693,4 +2693,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-35 BP Stone
+
+</summary>
+
+> 创建stone蓝图类。
+
+</details>
+
 </details>
