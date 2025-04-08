@@ -2717,4 +2717,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-37 On Stone Begin Overlap
+
+</summary>
+
+> 在子类AWarriorStoneBase中重写函数OnPickUpCollisionSphereBeginOverlap以激活角色拾取石头的能力。
+
+</details>
+
 </details>
