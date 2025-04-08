@@ -2729,4 +2729,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-38 Collect Stones
+
+</summary>
+
+> 在UHeroGameplayAbility_PickUpStones中创建CollectStones函数，通过UKismetSystemLibrary::BoxTraceMultiForObjects进行检测，在一定范围内搜索角色附近的石头：如果有的话，加入TArray数组；没有的话，则取消角色的拾取能力。
+>
+> Note: 重点在于BoxTraceMultiForObjects这个函数的参数怎么填写。
+
+</details>
+
 </details>
