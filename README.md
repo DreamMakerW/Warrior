@@ -2681,4 +2681,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-34 Stone Class
+
+</summary>
+
+> 讲解恢复物品的功能逻辑：创建了基类AWarriorPickUpBase，设置USphereComponent属性，绑定委托函数；并派生子类AWarriorStoneBase。
+
+</details>
+
 </details>
