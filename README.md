@@ -2669,4 +2669,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-33 Commit Ability Cooldown
+
+</summary>
+
+> 给重攻击特殊技能设置冷却：基于之前逻辑的基础上，创建Gameplay Effect，在技能蓝图Cooldowns处选择创建的effect；在播放完蓝图之后，调用CommitAbility节点（确认技能的执行条件是否满足），并对委托事件进行广播，根据冷却时间更新icon的显示。
+
+</details>
+
 </details>
