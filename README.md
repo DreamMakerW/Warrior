@@ -2743,4 +2743,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-39 Consume Stone Input
+
+</summary>
+
+> 绑定输入：当我们按下E键的时候，触发相关逻辑。因为并不是直接触发能力蓝图，所以在DA_InputConfig中添加为NativeInputActions，并在AWarriorHeroCharacter::SetupPlayerInputComponent中绑定Input_PickUpStonesStarted函数，发送gameplay event给actor。（其他输入绑定流程参照以前的操作）之后在能力蓝图中调用wait gameplay event节点，等待事件通知。
+
+</details>
+
 </details>
