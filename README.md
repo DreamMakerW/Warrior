@@ -2705,4 +2705,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-36 Pick Up Ability
+
+</summary>
+
+> 为了便于检查和遍历，该能力通过C++类实现，先声明了需要重写的函数，定义相关标签，创建蓝图类配置标签，最后在DA_Hero中授予该能力。
+
+</details>
+
 </details>
