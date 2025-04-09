@@ -2817,4 +2817,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-45 Spawn Stone Ability
+
+</summary>
+
+> 生成恢复用的石头道具，作为敌人的一种能力，创建对应的标签和能力蓝图，进行能力的授予和激活。
+>
+> 因为选择在敌人死亡后生成道具，所以选择在BP_EnemyCharacter_Base蓝图中通过标签激活能力。（如果没有相应的能力，则不会进行激活）
+
+</details>
+
 </details>
