@@ -2793,4 +2793,28 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-43 Broadcast Display Input Key
+
+</summary>
+
+> 为了能够在正确的时机显示拾取键位的UI，我们选择在UHeroGameplayAbility_PickUpStones中激活或者结束能力式进行控制。为此，需要在UHeroUIComponent中创建委托变量，在UHeroGameplayAbility_PickUpStones中进行广播。
+
+</details>
+
+<details>
+
+<summary>
+    
+### 9-44 Listen For Display Input Key
+
+</summary>
+
+> 绑定委托事件，在WBP_HeroOverlay中编写UI的显示逻辑，相对于硬编码的方式，本讲在蓝图中获取了MappingContext中配置的键位，以进行动态显示。
+
+</details>
+
 </details>
