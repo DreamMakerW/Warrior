@@ -2831,4 +2831,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-46 Spawn Stone Logic
+
+</summary>
+
+> 在GA_Enemy_SpawnStone_Base中编写道具的生成逻辑：通过line trace，检测到敌人位置对应的地面，并随机一个位置；通过概率判定生成哪一类道具or是否生成，异步加载资源，进行类型转换后生成道具。
+>
+> 值得注意的一点是，之前在BP_EnemyCharacter_Base蓝图中尝试激活能力之后直接对actor进行了销毁，而GA_Enemy_SpawnStone_Base中需要异步加载资源，很可能没加载完actor就被销毁，导致无法生成道具，此处尝试了一个比较简单直接的解决方式——调用delay节点。（个人感觉这种方法并不是很好，可以进一步探究有什么其他的方式）
+
+</details>
+
 </details>
