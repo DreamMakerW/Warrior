@@ -2781,4 +2781,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-42 Input Key Widget
+
+</summary>
+
+> 创建拾取石头时显示键位的UI，并设置为隐藏。
+
+</details>
+
 </details>
