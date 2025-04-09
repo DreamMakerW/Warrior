@@ -5,15 +5,21 @@
 #include "Kismet/KismetSystemLibrary.h"
 #include "Characters/WarriorHeroCharacter.h"
 #include "Items/PickUps/WarriorStoneBase.h"
+#include "Components/UI/HeroUIComponent.h"
 
 void UHeroGameplayAbility_PickUpStones::ActivateAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilityActivationInfo ActivationInfo, const FGameplayEventData* TriggerEventData)
 {
+	// ÏÔÊ¾Ê°È¡¼üµÄUI
+	GetHeroUIComponentFromActorInfo()->OnStoneInteractedDelegate.Broadcast(true);
+	
 	Super::ActivateAbility(Handle, ActorInfo, ActivationInfo, TriggerEventData);
 
 }
 
 void UHeroGameplayAbility_PickUpStones::EndAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo, const FGameplayAbilityActivationInfo ActivationInfo, bool bReplicateEndAbility, bool bWasCancelled)
 {
+	GetHeroUIComponentFromActorInfo()->OnStoneInteractedDelegate.Broadcast(false);
+
 	Super::EndAbility(Handle, ActorInfo, ActivationInfo, bReplicateEndAbility, bWasCancelled);
 }
 
