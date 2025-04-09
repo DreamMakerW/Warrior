@@ -2767,4 +2767,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-41 On Stone Consumed
+
+</summary>
+
+> 在BP_StoneBase中编写蓝图逻辑，生成粒子特效和音效，并在子类中配置对应资源。创建gameplay effect之后也需要进行相应的配置。
+>
+> 对同时捡起多个石头时播放多次音效做了优化处理。
+
+</details>
+
 </details>
