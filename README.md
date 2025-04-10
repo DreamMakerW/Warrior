@@ -2845,4 +2845,34 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 9-47 Glacer Spawn Stone Chance
+
+</summary>
+
+> 为Glacer添加死亡后生成道具的能力。
+
+</details>
+
+</details>
+
+## Survival Game Mode
+<details>
+<summary>Lesson list</summary>
+
+<details>
+
+<summary>
+    
+### 10-3 Survival Game Mode Class
+
+</summary>
+    
+> 创建新的GameMode，创建枚举类型和委托，重写函数，在SetCurrentCurrentSurvialGameModeState中对委托事件进行广播；生成GameMode蓝图类，并做对应的设置（修改Player Controller Class & Default Pawn Class），在World Settings中选对应的GameMode。
+
+</details>
+
 </details>
