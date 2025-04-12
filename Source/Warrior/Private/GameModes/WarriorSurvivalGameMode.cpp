@@ -62,7 +62,7 @@ void AWarriorSurvivalGameMode::Tick(float DeltaTime)
 
 bool AWarriorSurvivalGameMode::HasFinishedAllWaves() const
 {
-	return CurrentWaveCount >= TotalWavesToSpawn;
+	return CurrentWaveCount > TotalWavesToSpawn;
 }
 
 void AWarriorSurvivalGameMode::SetCurrentSurvivalGameModeState(EWarriorSurvivalGameModeState InState)

@@ -2899,5 +2899,17 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 10-6 Wave Count Down Widget
+
+</summary>
+    
+> 制作倒计时需要用的widget，通过动画控制文字的显示效果；在event graph中播放动画，并且通过之前创建的count down函数更新text显示的秒数。
+
+</details>
+
 
 </details>
