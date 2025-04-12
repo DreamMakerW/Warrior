@@ -2911,5 +2911,17 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 10-7 Drawing Wave Count Down Widget
+
+</summary>
+    
+> 在gamemode蓝图中显示widget，更改显示的文本，并调用widget中的函数start count down，传入参数控制倒计时时间。
+
+</details>
+
 
 </details>

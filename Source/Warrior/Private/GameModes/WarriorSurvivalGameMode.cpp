@@ -9,7 +9,7 @@ void AWarriorSurvivalGameMode::BeginPlay()
 
 	checkf(EnemyWaveSpawnerDataTable, TEXT("Forgot to assign a valid data table in survival gamemode blueprint"));
 
-	SetCurrentSurvivalGameModeState(EWarriorSurvivalGameModeState::SpawningNewWave);
+	SetCurrentSurvivalGameModeState(EWarriorSurvivalGameModeState::WaitSpawnNewWave);
 	TotalWavesToSpawn = EnemyWaveSpawnerDataTable->GetRowNames().Num();
 }
 
