@@ -2949,5 +2949,17 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 10-10 Try Spawn Wave Enemies
+
+</summary>
+    
+> 讲解敌人的生成代码，也就是gamemode中的TrySpawnWaveEnemies函数：获取关卡中的target points，遍历敌人类型，随机化生成位置，生成敌人等。【本节内容很重要】
+
+</details>
+
 
 </details>
