@@ -2875,4 +2875,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 10-4 Enemy Wave Spawner Table Row
+
+</summary>
+    
+> 在EWarriorSurvialGameModeState中创建了两个结构体：FWarriorEnemyWaveSpawnerInfo与FWarriorEnemyWaveSpawnerTableRow。创建Data Table，存放相关信息。
+
+</details>
+
 </details>
