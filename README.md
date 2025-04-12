@@ -2923,5 +2923,17 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 10-8 Wave Info Widget
+
+</summary>
+    
+> 创建显示当前是轮次的widget。另外在AWarriorBaseGameMode类中启用tick能力，并且当actor实例化时，默认自动激活tick。
+
+</details>
+
 
 </details>
