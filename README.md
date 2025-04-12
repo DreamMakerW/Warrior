@@ -2935,5 +2935,19 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 10-9 Pre Load Next Wave Enemies
+
+</summary>
+    
+> 本节开始讲解敌人的生成逻辑，主要包括三部分：预加载敌人类型，在关卡中生成敌人，处理敌人生成数量。
+>
+> 首先是如何预加载敌人类型，在AWarriorSurvivalGameMode中创建PreLoadNextWaveEnemies函数，获取到Data Table中当前轮次需要生成的敌人类型，并进行异步加载。
+
+</details>
+
 
 </details>
