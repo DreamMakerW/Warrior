@@ -2887,4 +2887,17 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 10-5 Wave Progression Logic
+
+</summary>
+    
+> 在Gamemode中编写游戏生存模式不同状态的转换逻辑。
+
+</details>
+
+
 </details>
