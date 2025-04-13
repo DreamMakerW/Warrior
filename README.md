@@ -2961,5 +2961,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 10-11 On Enemy Destroyed
+
+</summary>
+    
+> 当敌人被消灭之后，如果还有剩余的敌人，并没有继续生成。要解决这个问题，可以通过OnDestroyed绑定委托函数，从而继续生成敌人。
+
+</details>
+
+
 
 </details>
