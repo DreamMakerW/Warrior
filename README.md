@@ -2973,6 +2973,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 10-12 On Wave Completed
+
+</summary>
+    
+> 当前轮次结束时，显示widget；在Data Table中配置第二轮次的敌人。
+
+</details>
+
 
 
 </details>
