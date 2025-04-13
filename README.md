@@ -2985,6 +2985,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 10-13 Playtesting Game Mode
+
+</summary>
+    
+> 测试游戏模式，发现一个问题：glacer入场的时候立即播放动画。修改了行为树Observer aborts，等待3秒。
+
+</details>
+
 
 
 </details>
