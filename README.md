@@ -2997,6 +2997,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 10-14 Register Spawned Enemies
+
+</summary>
+    
+> 解决另一个问题：当boss召唤guardian之后，boss死亡显示当前轮次结束。该问题的原因是gamemode并不知道boss的召唤能力，因此创建RegisterSpawnedEnemies函数，将生成的敌人注册到gamemode中，增加CurrentSpawnedEnemiesCounter的数量，并调用委托函数；同时在召唤能力的蓝图中调用RegisterSpawnedEnemies节点。
+
+</details>
+
 
 
 </details>
