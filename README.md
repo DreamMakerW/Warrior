@@ -3021,6 +3021,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 10-16 On Player Died
+
+</summary>
+    
+> 在角色死亡能力中调用gamemode变化时的委托事件，从而通知gamemode角色已经死亡。
+
+</details>
+
 
 
 
