@@ -15,6 +15,7 @@
 #include "Components/Combat/HeroCombatComponent.h"
 #include "Components/UI/HeroUIComponent.h"
 #include "AbilitySystemBlueprintLibrary.h"
+#include "GameModes/WarriorBaseGameMode.h"
 
 #include "WarriorDebugHelper.h"
 
@@ -78,7 +79,24 @@ void AWarriorHeroCharacter::PossessedBy(AController* NewController)
 		// 我们已经为其指定有效的数据资产
 		if (UDataAsset_StartUpDataBase* LoadedData = CharacterStartUpData.LoadSynchronous())
 		{
-			LoadedData->GiveToAbilitySystemComponent(WarriorAbilitySystemComponent);
+			int32 AbilityApplyLevel = 1;
+			if (AWarriorBaseGameMode* BaseGameMode = GetWorld()->GetAuthGameMode<AWarriorBaseGameMode>())
+			{
+				switch (BaseGameMode->GetCurrentGameDifficulty())
+				{
+				case EWarriorGameDifficulty::Easy:
+					AbilityApplyLevel = 4; break;
+				case EWarriorGameDifficulty::Normal:
+					AbilityApplyLevel = 3; break;
+				case EWarriorGameDifficulty::Hard:
+					AbilityApplyLevel = 2; break;
+				case EWarriorGameDifficulty::VeryHard:
+					AbilityApplyLevel = 1; break;
+				default:
+					break;
+				}
+			}
+			LoadedData->GiveToAbilitySystemComponent(WarriorAbilitySystemComponent, AbilityApplyLevel);
 		}
 	}
 }
@@ -188,4 +206,3 @@ void AWarriorHeroCharacter::Input_AbilityInputReleased(FGameplayTag InInputTag)
 {
 	WarriorAbilitySystemComponent->OnAbilityInputReleased(InInputTag);
 }
-

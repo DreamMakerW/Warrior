@@ -3033,6 +3033,18 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 10-17 Game Difficulty
+
+</summary>
+    
+> 创建新的枚举类表示游戏的难度，在hero和enemy的角色类中，通过游戏难度调整AbilityApplyLevel，从而在调用GiveToAbilitySystemComponent函数时传入不同的参数，以影响技能和gameplay effect的数值，进而影响游戏难度。
+
+</details>
+
 
 
 
