@@ -3067,11 +3067,23 @@
 
 <summary>
     
-### 11-1 Template Button Widget
+### 11-2 Template Button Widget
 
 </summary>
     
 > 创建button模板。
+
+</details>
+
+<details>
+
+<summary>
+    
+### 11-3 Pause Menu Template Button
+
+</summary>
+    
+> 创建暂停按钮的模板，在按钮的OnClicked事件中，创建Event Dispatchers，将事件转发给其他widget。 
 
 </details>
 
