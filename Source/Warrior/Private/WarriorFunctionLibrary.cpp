@@ -9,6 +9,7 @@
 #include "Kismet/KismetMathLibrary.h"
 #include "WarriorGameplayTags.h"
 #include "WarriorTypes/WarriorCountDownAction.h"
+#include "WarriorGameInstance.h"
 
 #include "WarriorDebugHelper.h"
 
@@ -181,8 +182,6 @@ void UWarriorFunctionLibrary::CountDown(const UObject* WorldContextObject, float
                 LatentInfo.UUID,
                 new FWarriorCountDownAction(TotalTime, UpdateInterval, OutRemaingTime, CountDownOutput, LatentInfo)
             );
-
-            
         }
     }
 
@@ -194,3 +193,17 @@ void UWarriorFunctionLibrary::CountDown(const UObject* WorldContextObject, float
         }
     }
 }
+
+
+UWarriorGameInstance* UWarriorFunctionLibrary::GetWarriorGameInstance(const UObject* WorldContextObject)
+{
+    if (GEngine)
+    {
+        if (UWorld* World = GEngine->GetWorldFromContextObject(WorldContextObject, EGetWorldErrorMode::LogAndReturnNull))
+        {
+            return World->GetGameInstance<UWarriorGameInstance>();
+        }
+    }
+    return nullptr;
+}
+

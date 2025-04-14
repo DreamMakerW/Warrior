@@ -3123,4 +3123,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 11-7 Warrior Game Instance
+
+</summary>
+    
+> 在编写重新尝试按钮的逻辑时，希望访问一些全局变量，所以考虑使用游戏实例：它是一个全局对象，与游戏的生命周期相同。创建UWarriorGameInstance类，并在函数库中返回游戏实例，同时在项目设置中配置游戏实例生成的蓝图子类。
+
+</details>
+
 </details>
