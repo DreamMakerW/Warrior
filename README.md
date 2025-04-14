@@ -3087,4 +3087,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 11-4 Lose Screen
+
+</summary>
+    
+> 制作失败界面，并在关卡蓝图中创建该界面进行展示。
+
+</details>
+
 </details>
