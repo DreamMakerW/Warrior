@@ -3099,4 +3099,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 11-5 Lose Screen Animation
+
+</summary>
+    
+> 制作失败界面的动画效果，并在事件蓝图中播放动画。
+
+</details>
+
 </details>
