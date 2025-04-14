@@ -3111,4 +3111,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 11-6 Drawing Lose Screen
+
+</summary>
+    
+> 在gamemode中，编写当角色死亡时绘制失败屏幕的逻辑。
+
+</details>
+
 </details>
