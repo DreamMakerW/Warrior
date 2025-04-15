@@ -3159,4 +3159,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 11-10 Toggle Input Mode
+
+</summary>
+    
+> 解决上节课遗留下的问题：重新开始游戏后，无法控制角色移动了。为此创建了UWarriorFunctionLibrary::ToggleInputMode函数，设置输入模式，当重新开始游戏后，调用该节点。
+
+</details>
+
 </details>
