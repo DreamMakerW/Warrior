@@ -3147,4 +3147,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 11-9 Open Level
+
+</summary>
+    
+> 在GameInstance蓝图中配置关卡和标签，在widget按钮事件中获取game instance，通过tag确定想要打开的关卡。
+
+</details>
+
 </details>
