@@ -3195,4 +3195,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 11-13 Pause Menu Widget
+
+</summary>
+    
+> 创建暂停屏幕，在事件蓝图中编写widget创建时的暂停逻辑。
+
+</details>
+
 </details>
