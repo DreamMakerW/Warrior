@@ -3255,4 +3255,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 11-18 Main Menu Animation and Logic
+
+</summary>
+    
+> 给主菜单添加动画，并添加按钮逻辑；同时给之前创建的screen添加跳转到主菜单的逻辑。
+
+</details>
+
 </details>
