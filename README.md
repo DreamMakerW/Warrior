@@ -3207,4 +3207,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 11-14 Drawing Pause Menu
+
+</summary>
+    
+> 绑定输入映射，按Esc时显示暂停屏幕。（在编辑器中需要按Shift + Esc）
+
+</details>
+
 </details>
