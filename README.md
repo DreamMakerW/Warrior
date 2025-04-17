@@ -3315,4 +3315,17 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 11-23 Game Mode Load Difficulty
+
+</summary>
+    
+> 重写GameModeBase中的InitGame函数，此函数先于任何其他函数被调用，加载之前存储的游戏难度。
+
+</details>
+
+
 </details>
