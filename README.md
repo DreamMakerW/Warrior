@@ -3291,4 +3291,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 11-21 Save Game Object
+
+</summary>
+    
+> 每次打开选项菜单时，都没有保存上次选择的游戏难度，为此创建了SaveGame类，用成员变量来对游戏难度进行保存。
+
+</details>
+
 </details>
