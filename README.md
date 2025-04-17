@@ -3303,4 +3303,16 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 11-22 Load and Save Game Difficulty
+
+</summary>
+    
+> 在函数库中声明和定义新的函数，用于加载和保存游戏难度，并在蓝图中进行调用。
+
+</details>
+
 </details>
