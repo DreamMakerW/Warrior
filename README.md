@@ -3327,5 +3327,29 @@
 
 </details>
 
+<details>
+
+<summary>
+    
+### 11-24 Loading Screen
+
+</summary>
+    
+> 制作加载界面：首先在Warrior.Build.cs文件中添加MoviePlayer模块，之后在UWarriorGameInstance中，重载Init函数，为PreLoadMap和PostLoadMapWithWorld绑定回调函数OnPreLoadMap与OnDestinationWorldLoaded，以展示加载界面。
+
+</details>
+
+<details>
+
+<summary>
+    
+### 11-25 Survival Game Map
+
+</summary>
+    
+> 导入商店的游戏地图。（目前已找不到该资源）
+
+</details>
+
 
 </details>
